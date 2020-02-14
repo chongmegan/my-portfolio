@@ -1,0 +1,182 @@
+
+@import url("https://use.typekit.net/jys4ekk.css");
+
+html, * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: brother-1816, sans-serif;
+    font-weight: 1;
+}
+
+section {
+	padding: 6rem 0;
+}
+
+img {
+	width: 100%;
+}
+
+body {
+	width: 100%;
+	height: 100%;
+	background: url("images/sitebg.jpg") no-repeat center fixed;
+	background-size: cover;
+}
+
+a {
+	text-decoration: none;
+	color: #000000;
+}
+
+h1 {
+	font-family: fieldwork, 'arial',  sans-serif;
+	font-weight: 400;
+}
+
+
+/*reusable*/
+.container {
+	width: 90%;
+	max-width: 600px;
+	height: 100%;
+	margin: 0 auto;
+	position: relative;
+}
+
+.section-heading {
+	text-align: center;
+}
+
+.section-heading h1 {
+	font-size: 4rem;
+	color: rgba(0, 0, 0, 1);
+	font-weight: 300;
+	position: relative;
+}
+
+/*reusable*/
+
+/*header*/
+
+.homepage-link {
+	position: static;
+	margin: 15px 30px 20px 30px;
+}
+
+.homepage-link:hover,
+.homepage-link:focus{
+	background: linear-gradient(to top, #0f2027, #203a43, #2c5364);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.homepage-link h1 {
+	font-family: Montserrat, sans-serif;
+	font-weight: bold;
+	font-size: 23px;
+}
+/*header*/
+
+.project-content {
+	justify-content: center;
+}
+
+.project .container{
+	align-items: center;
+	justify-content: center;
+	max-width: 600px;
+	margin: auto;
+}
+
+p.description {
+	padding-top: 12px;
+	padding-bottom: 30px;
+	clear: both;
+}
+
+ul.description-list {
+	font-family: brother-1816, arial, sans-serif;
+	line-height: 130%;
+	font-size: 18px;
+	font-weight: 1;
+	list-style-type: disc;
+	padding-bottom: 40px;
+	padding-left: 25px;
+}
+
+li {
+	font-size: 17px;
+}
+
+.project-wireframe {
+	display: flex;
+	justify-content: center;
+	padding: 1rem;
+}
+
+.project-img {
+	padding-top: 1rem;
+	padding-bottom: 1.5rem;
+}
+
+.project-prototype {
+	padding: 1rem;
+	justify-content: center;
+}
+
+.project-challenges {
+	padding: 1rem;
+}
+
+.button-container {
+	text-align: center;
+}
+
+.next {
+		font-family: brother-1816, sans-serif;
+		margin: 0 auto;
+		font-size: 18px;
+		clear: both;
+		display: inline-block;
+		margin: 5px;
+	}
+
+.next:hover,
+.next:focus{
+	background: linear-gradient(to top, #0f2027, #203a43, #2c5364);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.back {
+		font-family: brother-1816, sans-serif;
+		margin: 0 auto;
+		font-size: 18px;
+		clear: both;
+		display: inline-block;
+		margin: 5px;
+}
+
+.back:hover,
+.back:focus{
+	background: linear-gradient(to top, #0f2027, #203a43, #2c5364);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+/*footer*/
+
+.copyright{
+	width: 100%;
+	text-align: center;
+	padding: 2rem 0;
+	position: relative;
+	background-color: #0f2027;
+}
+
+.copyright p{
+	font-size: 1rem;
+	color: #ffffff;
+}
+/*footer*/

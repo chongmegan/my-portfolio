@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Megan Chong</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+	<header>
+		<div class ="menu-toggler">
+			<div class="bar half start"></div>
+			<div class="bar"></div>
+			<div class="bar half end"></div>
+		</div>
+		<nav class="top-nav">
+			<ul class="nav-list">
+				<li> 
+					<a href="index.html" class="nav-link">Home</a>
+				</li>
+				<li> 
+					<a href="#about" class="nav-link">About</a>
+				</li>
+				<li>
+					<div class="dropdown"> 
+					<a href="#portfolio" class="nav-link dropdown">Portfolio</a>
+					<div class="dropdown-content">
+    					<a href="portfolio1.html" target="_blank">CornerHealth App</a>
+    					<a href="portfolio2.html" target="_blank">Online Portfolio</a>
+  					</div>
+  					</div>
+				</li>
+				<li>
+					<a href="" class="nav-link">Resume</a>
+				</li>
+				<li> 
+					<a href="#contact" class="nav-link">Contact</a>
+				</li>
+			</ul>
+		</nav>
+		<div class="landing-text">
+			<h1>Megan Chong</h1>
+			<h6>Behavioral Neuroscience and Interaction Design Student</h6>
+		</div>
+	</header>
+
+	<section class="about" id="about">
+		<div class="container">
+			<div class="profile.img has-margin-right" data-aos="fade-right" data-aos-delay="300">
+				<img src="images/profile.jpeg" alt="">
+			</div>
+			<div class="about-details" data-aos="fade-left" data-aos-delay="600">
+				<div class="about-heading">
+					<h1>About</h1>
+					<h6>Myself</h6>
+				</div>
+				<p>
+					Hi! I'm Megan, a Behavioral Neuroscience student at Northeastern University with a passion for human-centered design, front-end development, and understanding how to better help people. As my interest in the field of Interaction Design continues to grow, I decided I would track my journey in learning design by creating this website. Feel free to look around!
+				</p>
+				<div class="social-media">
+				<ul class="nav-list">
+					<li>
+						<a href="https://www.facebook.com/megan.chong.39" target="_blank" class="icon-link">
+							<i class="fab fa-facebook-square"></i>
+						</a>
+					</li>
+					<li>
+						<a href="www.linkedin.com/in/megan-chong-" target="_blank" class="icon-link">
+							<i class="fab fa-linkedin"></i>
+						</a>
+					</li>
+					<li>
+						<a target="_blank" class="icon-link" href="mailto:chong.m@husky.neu.edu"><i class="fas fa-envelope-square"></i></a>
+						</a>
+					</li>
+				</ul>
+			</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="portfolio" id="portfolio">
+		<div class="container">
+			<div class="section-heading">
+				<h1>Portfolio</h1>
+				<h6>View some of my recent work</h6>
+			</div>
+			<div class="portfolio-item">
+				<div class="portfolio-img has-margin-right" data-aos="fade-right" data-aos-delay="300">
+					<img src="images/cornerhealthmockup.jpeg" alt="">
+				</div>
+				<div class="portfolio-description" data-aos="fade-left" data-aos-delay="600">
+					<h6>Mobile Application Design</h6>
+					<h1>CornerHealth App</h1>
+					<p>
+						An app designed to combat food deserts throughout America || Prototyped in Adobe XD
+					</p>
+					<a href="portfolio1.html" target="_blank" class="cta">View Details</a>
+				</div>
+			</div>
+			<div class="portfolio-item">
+				<div class="portfolio-description has-margin-right" data-aos="fade-right" data-aos-delay="900">
+					<h6>Web Development and Design</h6>
+					<h1>Online Portfolio</h1>
+					<p>
+						A personal online portfolio to display my work and progress || Created with HTML/CSS and JavaScript
+					</p>
+					<a href="portfolio2.html" class="cta">View Details</a>
+				</div>
+				<div class="portfolio-img" data-aos="fade-left" data-aos-delay="1200">
+					<img src="images/portfoliomockup.jpeg" alt="">
+				</div>
+				
+			</div>
+		</div>
+	</section>
+	<section class="contact" id="contact" method="post" action="contact-form.php">
+		<div class="container">
+			<div class="section-heading">
+				<h1>Contact</h1>
+				<h6>Questions? Just saying hi? Let's work together!</h6>
+			</div>
+			<form action="" data-aos="fade-up" data-aos-delay="300">
+				<label for="name">Name:</label>
+				<input type="text" id="name" name="name" placeholder="Enter your name..." required>
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email" placeholder="Enter your email..." required>
+				<label for="message">Message:</label>
+				<textarea name="message" id="message" cols="10" rows="10"></textarea>
+				<input type="Submit" value="Submit">
+			</form>
+		</div>
+	</section>
+	<footer class="copyright">
+		<div class="up" id="up">
+			<i class="fas fa-chevron-up"></i>
+		</div>
+		<p>&copy; 2020 Megan Chong</p>
+	</footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
