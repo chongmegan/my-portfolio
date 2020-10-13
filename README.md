@@ -1,1 +1,2 @@
-# portfolio_website
+# Personal Portfolio Website
+Created by Megan Chong 
