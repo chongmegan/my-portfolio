@@ -1,2 +1,2 @@
 # Personal Portfolio Website
-Created by Megan Chong 
+Site is live at https://chongmegan.github.io/
