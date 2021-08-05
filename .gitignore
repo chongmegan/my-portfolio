@@ -1,1 +1,11 @@
+#dependencies
+node_modules/
+
+#misc
 .DS_store
+
+#production
+/build
+
+package-lock.json
+
