@@ -28,7 +28,7 @@ const Worksense = () => {
     return (
         <div>
             <Homepage>
-				<H1 id="logo"><HomepageLink href="/">Megan Chong</HomepageLink></H1>
+				<H1><HomepageLink href="/">Megan Chong</HomepageLink></H1>
 			</Homepage>
             <Header height="20vh"/>
             <ProjectContainer>

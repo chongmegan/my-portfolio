@@ -45,7 +45,7 @@ const Home = () => {
 				<LandingName>Megan Chong</LandingName>
 				<LandingSubtext>Behavioral Neuroscience and Interaction Design Student</LandingSubtext>
 			</LandingText>
-            <Section className="about" id="about">
+            <Section>
                 <AboutContainer>
                     <ProfileImgContainer data-aos="fade-right" data-aos-delay="300">
 				        <ProfileImg src={profilePic} alt=""/>
@@ -61,22 +61,22 @@ const Home = () => {
                         <SocialMedia>
                             <SocialMediaRow>
                                 <Item>
-						            <SocialMediaLink href="https://www.facebook.com/megan.chong.39" rel="noopener noreferrer" target="_blank" className="icon-link">
+						            <SocialMediaLink href="https://www.facebook.com/megan.chong.39" rel="noopener noreferrer" target="_blank">
 							            <FacebookIcon className="fa fa-facebook-square"></FacebookIcon>
                                     </SocialMediaLink>
 					            </Item>
                                 <Item>
-						            <SocialMediaLink href="https://www.linkedin.com/in/megan-chong-/" rel="noopener noreferrer" target="_blank" className="icon-link">
+						            <SocialMediaLink href="https://www.linkedin.com/in/megan-chong-/" rel="noopener noreferrer" target="_blank">
 							            <LinkedInIcon className="fa fa-linkedin-square"></LinkedInIcon>
 						            </SocialMediaLink>
 					            </Item>
                                 <Item>
-						            <SocialMediaLink target="_blank" rel="noopener noreferrer" className="icon-link" href="mailto:chong.m@northeastern.edu">
+						            <SocialMediaLink target="_blank" rel="noopener noreferrer" href="mailto:chong.m@northeastern.edu">
 							                <GmailIcon className="fa fa-envelope-square"></GmailIcon>
 						            </SocialMediaLink>
 					            </Item>
 								<Item>
-						            <SocialMediaLink href="https://github.com/chongmegan" rel="noopener noreferrer" target="_blank" className="icon-link">
+						            <SocialMediaLink href="https://github.com/chongmegan" rel="noopener noreferrer" target="_blank">
 							            <GithubIcon className="fa fa-github-square"></GithubIcon>
 						            </SocialMediaLink>
 					            </Item>
@@ -86,7 +86,7 @@ const Home = () => {
                 </AboutContainer>
             </Section>
 
-            <Section className="portfolio" id="portfolio">
+            <Section>
 		        <Container>
 			        <PortfolioHeading>
 				        <PortfolioHeadingText>Portfolio</PortfolioHeadingText>
