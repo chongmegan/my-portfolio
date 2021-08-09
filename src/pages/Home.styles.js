@@ -12,7 +12,7 @@ const LandingText = styled.div`
 
 const LandingName = styled.h1`
     font-size: 16rem;
-	font-family: 'Montserrat' , sans-serif;
+	font-family: 'aktiv-grotesk', sans-serif;
 	background: linear-gradient(to top, #0f2027, #203a43, #2c5364);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
@@ -23,7 +23,7 @@ const LandingName = styled.h1`
 const LandingSubtext = styled.h6`
     font-size: 2.5rem;
 	font-weight: 300;
-	font-family: 'brother-1816', sans-serif;
+	font-family: 'aktiv-grotesk', sans-serif;
 `
 
 const Section = styled.section`
@@ -206,5 +206,5 @@ export {
     GithubIcon,
     PortfolioHeading,
     PortfolioHeadingText,
-    PortfolioSubheading
+    PortfolioSubheading,
 }
