@@ -14,11 +14,11 @@ const Footer = () => {
 
     return (
         <Copyright>
-		    <Up onClick={scrollTop} id="up">
-			    <UpIcon className="fa fa-arrow-up"></UpIcon>
-		    </Up>
-		    <FooterText>&copy; 2021 Megan Chong</FooterText>
-	    </Copyright>
+            <Up onClick={scrollTop} id="up">
+                <UpIcon className="fa fa-arrow-up"></UpIcon>
+            </Up>
+            <FooterText>&copy; 2021 Megan Chong</FooterText>
+        </Copyright>
     );
 }
 

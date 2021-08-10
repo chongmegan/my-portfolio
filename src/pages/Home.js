@@ -50,7 +50,7 @@ const Home = () => {
                     <ProfileImgContainer data-aos="fade-right" data-aos-delay="300">
 				        <ProfileImg src={profilePic} alt=""/>
 			        </ProfileImgContainer>
-                    <AboutDetails data-aos="fade-left" data-aos-delay="600">
+                    <AboutDetails data-aos="fade-left" data-aos-delay= "600">
                         <AboutHeading>
                             <AboutHeadingFirst>About</AboutHeadingFirst>
 					        <AboutHeadingSecond>Myself</AboutHeadingSecond>
