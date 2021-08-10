@@ -12,13 +12,13 @@ const BottomNavigation = (props) => {
 
     return (
         <ButtonContainer>
-			<Back>
-				<BackLink href={back}>&larr; Back</BackLink>
-			</Back>
-		    <Next>
-				<NextLink href={next}>Next &rarr;</NextLink>
-			</Next>
-		</ButtonContainer>
+            <Back>
+                <BackLink href={back}>&larr; Back</BackLink>
+            </Back>
+            <Next>
+                <NextLink href={next}>Next &rarr;</NextLink>
+            </Next>
+        </ButtonContainer>
     )
 }
 

@@ -2,28 +2,28 @@ import styled from 'styled-components';
 
 const LandingText = styled.div`
     position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	width: 100%;
-	text-align: center;
-	z-index: 1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+    z-index: 1;
 `
 
 const LandingName = styled.h1`
     font-size: 16rem;
-	font-family: 'aktiv-grotesk', sans-serif;
-	background: linear-gradient(to top, #0f2027, #203a43, #2c5364);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-	padding: 1rem;
-	user-select: none;
+    font-family: 'aktiv-grotesk', sans-serif;
+    background: linear-gradient(to top, #0f2027, #203a43, #2c5364);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 1rem;
+    user-select: none;
 `
 
 const LandingSubtext = styled.h6`
     font-size: 2.5rem;
-	font-weight: 300;
-	font-family: 'aktiv-grotesk', sans-serif;
+    font-weight: 300;
+    font-family: 'aktiv-grotesk', sans-serif;
 `
 
 const Section = styled.section`
@@ -32,21 +32,21 @@ const Section = styled.section`
 
 const AboutContainer = styled.div`
     display: flex;
-	align-items: center;
-	justify-content: center;
+    align-items: center;
+    justify-content: center;
     width: 90%;
-	max-width: 120rem;
-	height: 100%;
-	margin: 0 auto;
-	position: relative;
+    max-width: 120rem;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
 `
 
 const Container = styled.div`
     width: 90%;
-	max-width: 120rem;
-	height: 100%;
-	margin: 0 auto;
-	position: relative;
+    max-width: 120rem;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
 `
 
 const ProfileImgContainer = styled.div`
@@ -64,25 +64,25 @@ const AboutDetails = styled.div`
 
 const AboutHeading = styled.div`
     text-align: center;
-	text-transform: uppercase;
-	line-height: 0;
-	margin-bottom: 6rem;
+    text-transform: uppercase;
+    line-height: 0;
+    margin-bottom: 6rem;
 `
 
 const AboutHeadingFirst = styled.h1`
     font-size: 10rem;
-	color: #203a43;
-	opacity: .40;
+    color: #203a43;
+    opacity: .40;
 `
 
 const AboutHeadingSecond = styled.h6`
     font-size: 2.5rem;
-	font-weight: 300;
+    font-weight: 300;
 `
 
 const AboutText = styled.p`
     font-size: 1.8rem;
-	font-weight: 300;
+    font-weight: 300;
 `
 
 const SocialMedia = styled.div`
@@ -91,11 +91,11 @@ const SocialMedia = styled.div`
 
 const SocialMediaRow = styled.ul`
     list-style: none;
-	width: 100%;
-	height: 100%;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 `
 
 const Item = styled.li`
@@ -104,12 +104,12 @@ const Item = styled.li`
 
 const SocialMediaLink = styled.a`
     text-decoration: none;
-	color: #000000;
+    color: #000000;
 `
 
 const FacebookIcon = styled.i`
     font-size: 5rem;
-	transition: color 650ms;
+    transition: color 650ms;
 
     &:hover {
         color: #4267b2;
@@ -118,7 +118,7 @@ const FacebookIcon = styled.i`
 
 const LinkedInIcon = styled.i`
     font-size: 5rem;
-	transition: color 650ms;
+    transition: color 650ms;
 
     &:hover {
         color: #0e76a8;
@@ -126,7 +126,7 @@ const LinkedInIcon = styled.i`
 `
 const GmailIcon = styled.i`
     font-size: 5rem;
-	transition: color 650ms;
+    transition: color 650ms;
 
     &:hover {
         color: #c71610;
@@ -135,7 +135,7 @@ const GmailIcon = styled.i`
 
 const GithubIcon = styled.i`
     font-size: 5rem;
-	transition: color 650ms;
+    transition: color 650ms;
 
     &:hover {
         color: #333333;
@@ -144,42 +144,42 @@ const GithubIcon = styled.i`
 
 const PortfolioHeading = styled.div`
     text-align: center;
-	margin-bottom: 7rem;
+    margin-bottom: 7rem;
 `
 
 const PortfolioHeadingText = styled.h1`
     font-size: 3.5rem;
-	color: rgba(0, 0, 0, 1);
-	text-transform: uppercase;
-	font-weight: 300;
-	position: relative;
-	margin-bottom: 1rem;
+    color: rgba(0, 0, 0, 1);
+    text-transform: uppercase;
+    font-weight: 300;
+    position: relative;
+    margin-bottom: 1rem;
 
     ::before {
         content: '';
-	    position: absolute;
-	    bottom: -.5rem;
-	    left: 50%;
-	    transform: translateX(-50%);
-	    background-color: rgba(0, 0, 0, 0.75);
+        position: absolute;
+        bottom: -.5rem;
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: rgba(0, 0, 0, 0.75);
         width: 10rem;
-	    height: 3px;
-	    border-radius: .8rem;
+        height: 3px;
+        border-radius: .8rem;
     }
 
     ::after{
         content: '';
-	    position: absolute;
-	    bottom: -.5rem;
-	    left: 50%;
-	    transform: translateX(-50%);
-	    background-color: rgba(0, 0, 0, 0.75);
+        position: absolute;
+        bottom: -.5rem;
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: rgba(0, 0, 0, 0.75);
     }
 `
 
 const PortfolioSubheading = styled.h6`
     font-size: 1.6rem;
-	font-weight: 300;
+    font-weight: 300;
 `
 
 export {
