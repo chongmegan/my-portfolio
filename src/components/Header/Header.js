@@ -16,9 +16,9 @@ const Header = (props) => {
     return (
         <HeaderContainer height={height}>
         <div className={`menu-toggler ${isOpen ? "open" : ""}`} onClick={toggle}>
-            <div className="bar half start"></div>
-            <div className="bar"></div>
-            <div className="bar half end"></div>
+            <div className="bar half start"/>
+            <div className="bar"/>
+            <div className="bar half end"/>
         </div>
         <nav className={`top-nav ${isOpen ? "nav-bar" && "open" : ""}`} onClick={toggle}>
             <NavList>
@@ -26,13 +26,16 @@ const Header = (props) => {
                     <NavigationLink to="/">Home</NavigationLink>
                 </li>
                 <li> 
-                    <NavigationLink href="#about">About</NavigationLink>
+                    <NavigationLink to="/about">About</NavigationLink>
                 </li>
                 <li>
                     <div className="dropdown"> 
                     <NavigationLink href="#portfolio">Portfolio</NavigationLink>
                     <div className="dropdown-content">
-                        <DropdownLink to="/in-progress" target="_blank">In Progress</DropdownLink>
+                        <DropdownLink to="/brigham" target="_blank">Brigham</DropdownLink>
+                        <DropdownLink to="/bei-app" target="_blank">BEI App</DropdownLink>
+                        <DropdownLink to="/booktoons" target="_blank">booktoons</DropdownLink>
+                        <DropdownLink to="/rdg-nu" target="_blank">rdgNU</DropdownLink>
                         <DropdownLink to="/worksense" target="_blank">Worksense</DropdownLink>
                         <DropdownLink to="/weschedule" target="_blank">WeSchedule</DropdownLink>
                         <DropdownLink to="/cornerhealth" target="_blank">Cornerhealth</DropdownLink>
@@ -40,7 +43,7 @@ const Header = (props) => {
                       </div>
                 </li>
                 <li>
-                    <NavigationLink href="https://drive.google.com/file/d/12CZBeA_jqIP1vcYQH4LRF2gJxYPtrL4R/view?usp=sharing" rel="noopener noreferrer" target="_blank">Resume</NavigationLink>
+                    <NavigationLink href="https://drive.google.com/file/d/1MZ310LwBZQaxoU_785Jbbfsj-o3p02Jb/view?usp=sharing" rel="noopener noreferrer" target="_blank">Resume</NavigationLink>
                 </li>
             </NavList>
         </nav>

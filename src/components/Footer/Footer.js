@@ -15,7 +15,7 @@ const Footer = () => {
     return (
         <Copyright>
             <Up onClick={scrollTop} id="up">
-                <UpIcon className="fa fa-arrow-up"></UpIcon>
+                <UpIcon className="fa fa-arrow-up"/>
             </Up>
             <FooterText>&copy; 2021 Megan Chong</FooterText>
         </Copyright>

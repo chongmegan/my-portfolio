@@ -15,10 +15,10 @@ const NavList = styled.ul`
     align-items: center;
 `
 
-const NavigationLink = styled.a`
+const NavigationLink = styled(Link)`
     font-family: 'Montserrat', sans-serif;
     color: #ffffff;
-    font-size: 5rem;
+    font-size: 3.5rem;
     padding: .5rem;
     cursor: pointer;
     font-weight: bold;
@@ -32,10 +32,11 @@ const NavigationLink = styled.a`
 
 const DropdownLink = styled(Link)`
     font-family: Montserrat;
-    font-size: 2.5rem;
+    font-size: 2rem;
     color: #ffffff;
-    padding: 1rem;
+    padding: .7rem;
     display: block;
+    text-align: center;
 
     &:hover {
         color: #ffffcc;

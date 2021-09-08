@@ -19,7 +19,8 @@ const PortfolioImageContainer = styled.div`
 `
 
 const PortfolioImage = styled.img`
-    width: 100%;
+    width: 600px;
+    height: 100%;
 `
 
 const PortfolioHeader = styled.h6`

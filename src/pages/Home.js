@@ -2,39 +2,26 @@ import React from 'react';
 import {
     LandingText, 
     LandingName, 
-    LandingSubtext, 
-    Section, 
-    AboutContainer, 
+    LandingSubtext,
+    ArrowContainer,
+    Section,
     Container,
-    ProfileImgContainer,
-    ProfileImg,
-    AboutDetails,
-    AboutHeading,
-    AboutHeadingFirst,
-    AboutHeadingSecond,
-    AboutText,
-    SocialMedia,
-    SocialMediaRow,
-    Item,
-    SocialMediaLink,
-    FacebookIcon,
-    LinkedInIcon,
-    GmailIcon,
-    GithubIcon,
     PortfolioHeading,
     PortfolioHeadingText,
-    PortfolioSubheading
+    PortfolioSubheading,
 } from './Home.styles';
 import { Header } from '../components/Header/Header';
 import { Footer } from '../components/Footer/Footer';
 import { PortfolioItemOdd } from '../components/Portfolio-Item/portfolio-item-odd';
 import { PortfolioItemEven } from '../components/Portfolio-Item/portfolio-item-even';
-import profilePic from '../images/profile.jpeg';
-import portfolioMockup from '../images/portfoliomockup.jpeg';
-import Worksense from '../images/Worksense.jpg';
-import WeSchedule from '../images/WeSchedule.jpg';
-import CornerHealth from '../images/cornerhealthmockup.jpeg';
-import BrooklynBridge from '../images/brooklynbridge.jpg';
+import Worksense from '../images/worksenseheader.png';
+import WeSchedule from '../images/wescheduleheader.png';
+import CornerHealth from '../images/cornerhealthheader.png';
+import Brigham from '../images/brigham-header.jpg';
+import BrighamApp from '../images/BEIScreen.png';
+import booktoons from '../images/booktoons-header.png';
+import rdgNU from '../images/rdgNUHeader.png';
+import { FaArrowDown } from 'react-icons/fa';
 
 
 const Home = () => {
@@ -45,46 +32,7 @@ const Home = () => {
                 <LandingName>Megan Chong</LandingName>
                 <LandingSubtext>Behavioral Neuroscience and Interaction Design Student</LandingSubtext>
             </LandingText>
-            <Section>
-                <AboutContainer>
-                    <ProfileImgContainer data-aos="fade-right" data-aos-delay="300">
-                        <ProfileImg src={profilePic} alt=""/>
-                    </ProfileImgContainer>
-                    <AboutDetails data-aos="fade-left" data-aos-delay= "600">
-                        <AboutHeading>
-                            <AboutHeadingFirst>About</AboutHeadingFirst>
-                            <AboutHeadingSecond>Myself</AboutHeadingSecond>
-                        </AboutHeading>
-                        <AboutText>
-                            Hi! I'm Megan, a Behavioral Neuroscience student at Northeastern University with a passion for human-centered design, front-end development, and on a mission to make design accessible for everyone. As my interest in the field of Interaction Design continues to grow, I decided I would track my journey in design and development by creating this website. Feel free to look around!
-                        </AboutText>
-                        <SocialMedia>
-                            <SocialMediaRow>
-                                <Item>
-                                    <SocialMediaLink href="https://www.facebook.com/megan.chong.39" rel="noopener noreferrer" target="_blank">
-                                        <FacebookIcon className="fa fa-facebook-square"></FacebookIcon>
-                                    </SocialMediaLink>
-                                </Item>
-                                <Item>
-                                    <SocialMediaLink href="https://www.linkedin.com/in/megan-chong-/" rel="noopener noreferrer" target="_blank">
-                                        <LinkedInIcon className="fa fa-linkedin-square"></LinkedInIcon>
-                                    </SocialMediaLink>
-                                </Item>
-                                <Item>
-                                    <SocialMediaLink target="_blank" rel="noopener noreferrer" href="mailto:chong.m@northeastern.edu">
-                                            <GmailIcon className="fa fa-envelope-square"></GmailIcon>
-                                    </SocialMediaLink>
-                                </Item>
-                                <Item>
-                                    <SocialMediaLink href="https://github.com/chongmegan" rel="noopener noreferrer" target="_blank">
-                                        <GithubIcon className="fa fa-github-square"></GithubIcon>
-                                    </SocialMediaLink>
-                                </Item>
-                            </SocialMediaRow>
-                        </SocialMedia>
-                    </AboutDetails>
-                </AboutContainer>
-            </Section>
+            <ArrowContainer><FaArrowDown size="50px" color="#203a43"/></ArrowContainer>
 
             <Section>
                 <Container>
@@ -98,11 +46,35 @@ const Home = () => {
                     imgdelay="300"
                     descfade="fade-left" 
                     descdelay="600"
-                    header="Development and Design"
-                    company="In Progress"
-                    description="A collection of projects and plans that I am currently working on"
-                    redirect="/in-progress"
-                    image={portfolioMockup}
+                    header="Graphic and Interaction Design"
+                    company="Media and Design"
+                    description="Designs and graphics created for the Brigham Education and Research Institutes"
+                    redirect="/brigham"
+                    image={Brigham}
+                /> 
+                
+                <PortfolioItemEven
+                    imgfade="fade-left"
+                    imgdelay="600"
+                    descfade="fade-right" 
+                    descdelay="300"
+                    header="Mobile Application + UI/UX Design"
+                    company="Brigham Education Institute Learning App"
+                    description="An education and resource database application used for professional development by Brigham staff"
+                    redirect="/bei-app"
+                    image={BrighamApp}
+                /> 
+
+                <PortfolioItemOdd
+                    imgfade="fade-right"
+                    imgdelay="300"
+                    descfade="fade-left" 
+                    descdelay="600"
+                    header="UI/UX Design + Front End Development"
+                    company="booktoons"
+                    description="A website that generates a playlist for your current read"
+                    redirect="/booktoons"
+                    image={booktoons}
                 /> 
 
                 <PortfolioItemEven
@@ -110,6 +82,18 @@ const Home = () => {
                     imgdelay="600"
                     descfade="fade-right" 
                     descdelay="300"
+                    header="UI/UX, Game Design + Front End Development"
+                    company="rdgNU"
+                    description="A behavioral resource dilemma game created for researchers at Northeastern for a psychology study"
+                    redirect="/rdgnu"
+                    image={rdgNU}
+                /> 
+
+                <PortfolioItemOdd
+                    imgfade="fade-right"
+                    imgdelay="300"
+                    descfade="fade-left" 
+                    descdelay="600"
                     header="Front End Web Development"
                     company="Worksense Analytics"
                     description="Rebranding and building a marketing website for Worksense Analytics at Scout design studio"
@@ -117,11 +101,11 @@ const Home = () => {
                     image={Worksense}
                 /> 
 
-                <PortfolioItemOdd
-                    imgfade="fade-right"
-                    imgdelay="300"
-                    descfade="fade-left" 
-                    descdelay="600"
+                <PortfolioItemEven
+                    imgfade="fade-left"
+                    imgdelay="600"
+                    descfade="fade-right" 
+                    descdelay="300"
                     header="UI/UX Design"
                     company="WeSchedule"
                     description="A collaborative scheduling tool idea designed for roommates"
@@ -129,11 +113,11 @@ const Home = () => {
                     image={WeSchedule}
                 /> 
 
-                <PortfolioItemEven
-                    imgfade="fade-left"
-                    imgdelay="600"
-                    descfade="fade-right" 
-                    descdelay="300"
+                <PortfolioItemOdd
+                    imgfade="fade-right"
+                    imgdelay="300"
+                    descfade="fade-left" 
+                    descdelay="600"
                     header="Mobile Application Design"
                     company="CornerHealth"
                     description="An application designed to combat food deserts throughout America"
@@ -141,21 +125,9 @@ const Home = () => {
                     image={CornerHealth}
                 /> 
 
-                <PortfolioItemOdd
-                    imgfade="fade-right"
-                    imgdelay="300"
-                    descfade="fade-left" 
-                    descdelay="600"
-                    header="Visual Media"
-                    company="Film Photography"
-                    description="A collection of some of my 35mm film photography || Shot with a Konica Autoreflex TC"
-                    redirect="Home.js"
-                    image={BrooklynBridge}
-                /> 
-
         </Container>
-    </Section>
-    <Footer/>
+        </Section>
+        <Footer/>
         </div>
     );
 }

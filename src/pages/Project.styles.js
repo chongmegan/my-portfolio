@@ -38,17 +38,22 @@ const ProjectContent = styled.div`
 `
 
 const ProjectHeader = styled.h1`
-    font-size: 38px;
+    font-size: 30px;
+    padding-bottom: .5rem;
 `
 
 const ProjectTags = styled.p`
     text-transform: uppercase;
     font-size: 16px;
+    padding-bottom: 2rem;
+`
+
+const ProjectOverview = styled.p`
+    font-size: 18px;
 `
 
 const ProjectDescription = styled.p`
     font-size: 18px;
-    padding-bottom: 2rem;
 `
 
 const H2 = styled.h2`
@@ -63,7 +68,6 @@ const ProjectList = styled.ul`
     font-size: 18px;
     font-weight: 1;
     list-style-type: disc;
-    padding-bottom: 40px;
     padding-left: 25px;
 `
 
@@ -73,7 +77,7 @@ const ProjectListItem = styled.li`
 
 const WebsiteLink = styled.a`
     font-family: brother-1816, arial, sans-serif;
-    font-size: 17px;
+    font-size: 18px;
     text-decoration: underline;
 
     &:hover {
@@ -113,6 +117,7 @@ export {
    ProjectContent,
    ProjectHeader,
    ProjectTags,
+   ProjectOverview,
    ProjectDescription,
    H2,
    ProjectList,

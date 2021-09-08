@@ -5,10 +5,14 @@ import 'aos/dist/aos.css';
 import { Helmet } from 'react-helmet';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Home from './pages/Home';
-import InProgress from './pages/InProgress';
+import About from './pages/About';
+import BEIApp from './pages/BEIApp';
+import Brigham from './pages/Brigham';
 import Worksense from './pages/Worksense';
 import WeSchedule from './pages/WeSchedule';
 import CornerHealth from './pages/CornerHealth';
+import booktoons from './pages/Booktoons';
+import rdgNU from './pages/rdgNU';
 
 
 const App = () => {
@@ -30,7 +34,11 @@ const App = () => {
           <div className="App">
           <Switch>
             <Route exact path="/" component={Home}/>
-            <Route path="/in-progress" component={InProgress}/>
+            <Route path="/about" component={About}/>
+            <Route path="/bei-app" component={BEIApp}/>
+            <Route path="/brigham" component={Brigham}/>
+            <Route path="/booktoons" component={booktoons}/>
+            <Route path="/rdgnu" component={rdgNU}/>
             <Route path="/worksense" component={Worksense}/>
             <Route path="/weschedule" component={WeSchedule}/>
             <Route path="/cornerhealth" component={CornerHealth}/>
