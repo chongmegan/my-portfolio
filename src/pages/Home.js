@@ -21,7 +21,7 @@ import Brigham from '../images/brigham-header.jpg';
 import BrighamApp from '../images/BEIScreen.png';
 import booktoons from '../images/booktoons-header.png';
 import rdgNU from '../images/rdgNUHeader.png';
-import { FaArrowDown } from 'react-icons/fa';
+import { FaAngleDown } from 'react-icons/fa';
 
 
 const Home = () => {
@@ -32,9 +32,9 @@ const Home = () => {
                 <LandingName>Megan Chong</LandingName>
                 <LandingSubtext>Behavioral Neuroscience and Interaction Design Student</LandingSubtext>
             </LandingText>
-            <ArrowContainer><FaArrowDown size="50px" color="#203a43"/></ArrowContainer>
+            <ArrowContainer><a scroll-behavior="smooth" href="#portfolio"><FaAngleDown size="50px" color="#203a43"/></a></ArrowContainer>
 
-            <Section>
+            <Section id="portfolio">
                 <Container>
                     <PortfolioHeading>
                         <PortfolioHeadingText>Portfolio</PortfolioHeadingText>
@@ -59,8 +59,8 @@ const Home = () => {
                     descfade="fade-right" 
                     descdelay="300"
                     header="Mobile Application + UI/UX Design"
-                    company="Brigham Education Institute Learning App"
-                    description="An education and resource database application used for professional development by Brigham staff"
+                    company="Brigham Education App"
+                    description="An education and resource database application used for professional development at the Brigham and Women's Hospital"
                     redirect="/bei-app"
                     image={BrighamApp}
                 /> 

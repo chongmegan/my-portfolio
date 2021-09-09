@@ -6,9 +6,7 @@ const ButtonContainer = styled.div`
 `
 
 const Back = styled.div`
-    font-family: 'brother-1816', sans-serif;
     margin: 0 auto;
-    font-size: 20px;
     clear: both;
     display: inline-block;
     margin: 7px;
@@ -16,6 +14,9 @@ const Back = styled.div`
 `
 
 const BackLink = styled.a`
+    font-family: 'Circular Std', 'Montserrat', Helvetica, sans-serif;
+    font-size: 20px;
+    
     &:hover, &:focus {
         background: linear-gradient(to top, #0f2027, #203a43, #2c5364);
         -webkit-background-clip: text;
@@ -25,9 +26,7 @@ const BackLink = styled.a`
 `
 
 const Next = styled.div`
-    font-family: 'brother-1816', sans-serif;
     margin: 0 auto;
-    font-size: 20px;
     clear: both;
     display: inline-block;
     margin: 7px;
@@ -35,6 +34,9 @@ const Next = styled.div`
 `
 
 const NextLink = styled.a`
+    font-family: 'Circular Std', 'Montserrat', Helvetica, sans-serif;
+    font-size: 20px;
+
     &:hover, &:focus {
         background: linear-gradient(to top, #0f2027, #203a43, #2c5364);
         -webkit-background-clip: text;

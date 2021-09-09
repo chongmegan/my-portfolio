@@ -87,8 +87,8 @@ const Booktoons = () => {
             </ProjectContainer>
 
             <BottomNavigation
-                back="/"
-                next="/"
+                back="/bei-app"
+                next="/rdgnu"
             />
             <Footer/>
         </div>

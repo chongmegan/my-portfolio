@@ -28,9 +28,9 @@ const UpIcon = styled.i`
 `
 
 const FooterText = styled.p`
+    font-family: 'Circular Std', 'Montserrat', Helvetica, sans-serif;
     font-size: 1.4rem;
     color: #ffffff;
-    font-weight: bold;
 `
 
 export { 

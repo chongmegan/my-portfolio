@@ -82,8 +82,8 @@ const Worksense = () => {
                 </ProjectContent>
             </ProjectContainer>
             <BottomNavigation
-            next="/weschedule"
-            back="/in-progress"
+                back="/rdgnu"
+                next="/weschedule"
             />
             <Footer/>
         </div>

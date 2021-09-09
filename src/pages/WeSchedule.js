@@ -100,8 +100,8 @@ const WeSchedule = () => {
                 </ProjectContent>
             </ProjectContainer>
             <BottomNavigation
-            next="/cornerhealth"
-            back="/worksense"
+                back="/worksense"
+                next="/cornerhealth"
             />
             <Footer/>
         </div>

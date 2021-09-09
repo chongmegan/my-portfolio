@@ -26,23 +26,26 @@ const PortfolioImage = styled.img`
 const PortfolioHeader = styled.h6`
     font-size: 1.5rem;
     text-transform: uppercase;
+    font-family: 'Circular Std', Helvetica, sans-serif;
     font-weight: 300;
     opacity: 0.3;
 `
 
 const PortfolioCompany = styled.h1`
     font-size: 3rem;
-    font-weight: 300;
+    font-family: 'Circular Std', Helvetica, sans-serif;
+    font-weight: 500;
     margin: 1rem 0;
 `
 
 const PortfolioDescription = styled.p`
     font-size: 1.8rem;
-    font-weight: 300;
+    font-family: 'Circular Std', Helvetica, sans-serif;
 `
 
 const PortfolioLink = styled.a`
     display: inline-block;
+    font-family: 'Circular Std', Helvetica, sans-serif;
     margin-top: 2.5rem;
     font-size: 1.5rem;
     text-transform: uppercase;

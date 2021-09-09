@@ -16,7 +16,7 @@ const NavList = styled.ul`
 `
 
 const NavigationLink = styled(Link)`
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Circular Std', Helvetica, sans-serif;
     color: #ffffff;
     font-size: 3.5rem;
     padding: .5rem;
@@ -31,7 +31,7 @@ const NavigationLink = styled(Link)`
 `
 
 const DropdownLink = styled(Link)`
-    font-family: Montserrat;
+    font-family: 'Circular Std', Helvetica, sans-serif;
     font-size: 2rem;
     color: #ffffff;
     padding: .7rem;

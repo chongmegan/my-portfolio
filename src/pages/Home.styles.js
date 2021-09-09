@@ -12,7 +12,7 @@ const LandingText = styled.div`
 
 const LandingName = styled.h1`
     font-size: 16rem;
-    font-family: 'aktiv-grotesk', sans-serif;
+    font-family: 'Circular Std', 'Montserrat', Helvetica, sans-serif;
     background: linear-gradient(to top, #0f2027, #203a43, #2c5364);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -23,7 +23,8 @@ const LandingName = styled.h1`
 const LandingSubtext = styled.h6`
     font-size: 2.5rem;
     font-weight: 300;
-    font-family: 'aktiv-grotesk', sans-serif;
+    color: #0f2027;
+    font-family: 'Circular Std', Helvetica, sans-serif;
 `
 
 const ArrowContainer = styled.div`
@@ -53,7 +54,8 @@ const PortfolioHeadingText = styled.h1`
     font-size: 3.5rem;
     color: rgba(0, 0, 0, 1);
     text-transform: uppercase;
-    font-weight: 300;
+    font-family: 'Circular Std', Helvetica, sans-serif;
+    font-weight: 600;
     position: relative;
     margin-bottom: 1rem;
 
@@ -81,7 +83,8 @@ const PortfolioHeadingText = styled.h1`
 
 const PortfolioSubheading = styled.h6`
     font-size: 1.6rem;
-    font-weight: 300;
+    font-family: 'Circular Std', Helvetica, sans-serif;
+    font-weight: 100;
 `
 
 export {

@@ -71,8 +71,8 @@ const CornerHealth = () => {
                 </ProjectContent>
             </ProjectContainer>
             <BottomNavigation
-            back="/weschedule"
-            next="/"
+                back="/weschedule"
+                next="/"
             />
             <Footer/>
         </div>

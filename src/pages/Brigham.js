@@ -48,7 +48,7 @@ const Brigham = () => {
             
             <BottomNavigation
             back="/"
-            next="/worksense"
+            next="/bei-app"
             />
             <Footer/>
         </div>

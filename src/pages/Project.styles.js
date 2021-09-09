@@ -12,18 +12,16 @@ const Homepage = styled.div`
 `
 
 const H1 = styled.h1`
-    font-family: 'fieldwork', 'arial',  sans-serif;
-    font-weight: 400;
+    font-family: 'Circular Std', 'Montserrat', Helvetica, sans-serif;
 `
 
 const HomepageLink = styled.a`
-    font-family: Montserrat, sans-serif;
-    font-weight: bold;
+    font-family: 'Circular Std', 'Montserrat', Helvetica, sans-serif;
+    font-weight: 100;
     font-size: 23px;
     border-style: solid;
     border-width: 2px;
     padding: 5px;
-    border-radius: 6px;
 `
 
 const ProjectContainer = styled.div`
@@ -39,56 +37,62 @@ const ProjectContent = styled.div`
 
 const ProjectHeader = styled.h1`
     font-size: 30px;
+    font-family: 'Circular Std', 'Montserrat', Helvetica, sans-serif;
     padding-bottom: .5rem;
 `
 
 const ProjectTags = styled.p`
+    font-family: 'Circular Std', 'Montserrat', Helvetica, sans-serif;
+    font-weight: 100;
     text-transform: uppercase;
     font-size: 16px;
     padding-bottom: 2rem;
 `
 
 const ProjectOverview = styled.p`
+    font-family: 'Circular Std', 'Montserrat', Helvetica, sans-serif;
     font-size: 18px;
 `
 
 const ProjectDescription = styled.p`
+    font-family: 'Circular Std', 'Montserrat', Helvetica, sans-serif;
     font-size: 18px;
 `
 
 const H2 = styled.h2`
+    font-family: 'Circular Std', 'Montserrat', Helvetica, sans-serif;
     font-weight: 500;
     font-size: 23px;
     padding: 2.5rem 0 1.5rem 0;
 `
 
 const ProjectList = styled.ul`
-    font-family: 'brother-1816', arial, sans-serif;
-    line-height: 130%;
-    font-size: 18px;
-    font-weight: 1;
     list-style-type: disc;
+    padding-top: 1.5rem;
     padding-left: 25px;
 `
 
 const ProjectListItem = styled.li`
-    font-size: 17px;
+    font-family: 'Circular Std', 'Montserrat', Helvetica, sans-serif;
+    line-height: 140%;
+    font-size: 18px;
+    font-weight: 100;
 `
 
 const WebsiteLink = styled.a`
-    font-family: brother-1816, arial, sans-serif;
+    font-family: 'Circular Std', 'Montserrat', Helvetica, sans-serif;
     font-size: 18px;
     text-decoration: underline;
 
     &:hover {
         color: #0f2027;
         font-weight: 600;
-        transition: 200ms;
+        transition: 300ms;
     }
 `
 
 const ProjectImage = styled.img`
-    padding-top: 1rem;
+    padding-top: 3rem;
     padding-bottom: 1.5rem;
 `
 

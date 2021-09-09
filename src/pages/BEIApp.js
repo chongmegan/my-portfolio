@@ -113,8 +113,8 @@ const BEIApp = () => {
                 </ProjectContainer>
 
             <BottomNavigation
-                back="/"
-                next="/"
+                back="/brigham"
+                next="/booktoons"
             />
             <Footer/>
         </div>

@@ -97,8 +97,8 @@ const RDGnu = () => {
             </ProjectContainer>
 
             <BottomNavigation
-                back="/"
-                next="/"
+                back="/booktoons"
+                next="/worksense"
             />
             <Footer/>
         </div>
