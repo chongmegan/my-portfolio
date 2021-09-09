@@ -4,6 +4,7 @@ import {
     HeaderContainer,
     NavList,
     NavigationLink,
+    ResumeLink,
     DropdownLink
 } from '../Header/Header.styles';
 
@@ -43,7 +44,7 @@ const Header = (props) => {
                       </div>
                 </li>
                 <li>
-                    <NavigationLink href="https://drive.google.com/file/d/1MZ310LwBZQaxoU_785Jbbfsj-o3p02Jb/view?usp=sharing" rel="noopener noreferrer" target="_blank">Resume</NavigationLink>
+                    <ResumeLink href="https://drive.google.com/file/d/1E22wdC27ytFg51Wd4wV6SAl_oP3bby2X/view?usp=sharing" rel="noopener noreferrer" target="_blank">Resume</ResumeLink>
                 </li>
             </NavList>
         </nav>

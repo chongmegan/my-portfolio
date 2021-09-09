@@ -1,12 +1,4 @@
 import React from 'react';
-import {
-    LandingText, 
-    LandingName, 
-    LandingSubtext,
-    ArrowContainer,
-    Section,
-    Container,
-} from './Home.styles';
 import { Header } from '../components/Header/Header';
 import { Footer } from '../components/Footer/Footer';
 import { PortfolioItemOdd } from '../components/Portfolio-Item/portfolio-item-odd';
@@ -19,6 +11,14 @@ import BrighamApp from '../images/BEIScreen.png';
 import booktoons from '../images/booktoons-header.png';
 import rdgNU from '../images/rdgNUHeader.png';
 import { FaAngleDown } from 'react-icons/fa';
+import {
+    LandingText, 
+    LandingName, 
+    LandingSubtext,
+    ArrowContainer,
+    Section,
+    Container,
+} from './Home.styles'
 
 
 const Home = () => {
@@ -29,7 +29,9 @@ const Home = () => {
                 <LandingName>Megan Chong</LandingName>
                 <LandingSubtext>Behavioral Neuroscience and Interaction Design Student</LandingSubtext>
             </LandingText>
-            <ArrowContainer><a scroll-behavior="smooth" href="#portfolio"><FaAngleDown size="50px" color="#203a43"/></a></ArrowContainer>
+            <ArrowContainer>
+                <a scroll-behavior="smooth" href="#portfolio"><FaAngleDown size="50px" color="#203a43"/></a>
+            </ArrowContainer>
 
             <Section id="portfolio">
                 <Container>
