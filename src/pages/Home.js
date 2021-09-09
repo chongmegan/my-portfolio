@@ -6,9 +6,6 @@ import {
     ArrowContainer,
     Section,
     Container,
-    PortfolioHeading,
-    PortfolioHeadingText,
-    PortfolioSubheading,
 } from './Home.styles';
 import { Header } from '../components/Header/Header';
 import { Footer } from '../components/Footer/Footer';
@@ -36,10 +33,6 @@ const Home = () => {
 
             <Section id="portfolio">
                 <Container>
-                    <PortfolioHeading>
-                        <PortfolioHeadingText>Portfolio</PortfolioHeadingText>
-                        <PortfolioSubheading>View some of my past projects and things I am currently working on</PortfolioSubheading>
-                    </PortfolioHeading>
 
                 <PortfolioItemOdd
                     imgfade="fade-right"
@@ -48,7 +41,7 @@ const Home = () => {
                     descdelay="600"
                     header="Graphic and Interaction Design"
                     company="Media and Design"
-                    description="Designs and graphics created for the Brigham Education and Research Institutes"
+                    description="Graphics and visuals created for the Brigham Education and Research Institutes"
                     redirect="/brigham"
                     image={Brigham}
                 /> 

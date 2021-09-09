@@ -5,6 +5,7 @@ import {
     UpIcon,
     FooterText
 } from './Footer.styles';
+import { FaAngleUp } from 'react-icons/fa';
 
 const Footer = () => {
 
@@ -15,7 +16,7 @@ const Footer = () => {
     return (
         <Copyright>
             <Up onClick={scrollTop} id="up">
-                <UpIcon className="fa fa-arrow-up"/>
+                <UpIcon><FaAngleUp/></UpIcon>
             </Up>
             <FooterText>&copy; 2021 Megan Chong</FooterText>
         </Copyright>

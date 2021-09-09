@@ -21,10 +21,12 @@ const LandingName = styled.h1`
 `
 
 const LandingSubtext = styled.h6`
-    font-size: 2.5rem;
-    font-weight: 300;
-    color: #0f2027;
     font-family: 'Circular Std', Helvetica, sans-serif;
+    font-size: 2.5rem;
+    font-weight: 100;
+    color: #0f2027;
+    opacity: 70%;
+    padding-top: 1rem;
 `
 
 const ArrowContainer = styled.div`
@@ -45,47 +47,6 @@ const Container = styled.div`
     position: relative;
 `
 
-const PortfolioHeading = styled.div`
-    text-align: center;
-    margin-bottom: 7rem;
-`
-
-const PortfolioHeadingText = styled.h1`
-    font-size: 3.5rem;
-    color: rgba(0, 0, 0, 1);
-    text-transform: uppercase;
-    font-family: 'Circular Std', Helvetica, sans-serif;
-    font-weight: 600;
-    position: relative;
-    margin-bottom: 1rem;
-
-    ::before {
-        content: '';
-        position: absolute;
-        bottom: -.5rem;
-        left: 50%;
-        transform: translateX(-50%);
-        background-color: rgba(0, 0, 0, 0.75);
-        width: 10rem;
-        height: 3px;
-        border-radius: .8rem;
-    }
-
-    ::after{
-        content: '';
-        position: absolute;
-        bottom: -.5rem;
-        left: 50%;
-        transform: translateX(-50%);
-        background-color: rgba(0, 0, 0, 0.75);
-    }
-`
-
-const PortfolioSubheading = styled.h6`
-    font-size: 1.6rem;
-    font-family: 'Circular Std', Helvetica, sans-serif;
-    font-weight: 100;
-`
 
 export {
     LandingText,
@@ -93,8 +54,5 @@ export {
     LandingSubtext,
     ArrowContainer,
     Section,
-    Container,
-    PortfolioHeading,
-    PortfolioHeadingText,
-    PortfolioSubheading,
+    Container
 }

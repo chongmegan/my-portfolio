@@ -4,7 +4,8 @@ const PortfolioItemContainer = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 5rem;
+    margin-bottom: 6rem;
+
     &:last-child {
         margin-bottom: 0;
     }
@@ -21,6 +22,8 @@ const PortfolioImageContainer = styled.div`
 const PortfolioImage = styled.img`
     width: 600px;
     height: 100%;
+    max-height: 350px;
+    overflow: hidden;
 `
 
 const PortfolioHeader = styled.h6`
@@ -48,12 +51,26 @@ const PortfolioLink = styled.a`
     font-family: 'Circular Std', Helvetica, sans-serif;
     margin-top: 2.5rem;
     font-size: 1.5rem;
-    text-transform: uppercase;
-    color: #3883ff;
-    transition: color 650ms;
+    text-transform: uppercase; 
+    color: #4690AE;
+    transition: color 600ms;
+
+    &:after {
+        content: '>';
+        opacity: 0;
+        position: absolute;
+    }
 
     &:hover {
-        color: #2f67cd;
+        color: #0f2027;
+        transition: 600ms;
+    }
+
+    &:hover:after {
+        opacity: 1;
+        transition: 600ms;
+        bottom: 1px;
+        right: 38.5rem;
     }
 `
 

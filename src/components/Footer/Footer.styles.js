@@ -23,7 +23,8 @@ const Up = styled.div`
 
 const UpIcon = styled.i`
     color: #0f2027;
-    font-size: 2rem;
+    padding-top: 1rem;
+    font-size: 3rem;
     margin: auto;
 `
 
