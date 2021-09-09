@@ -33,13 +33,13 @@ const Header = (props) => {
                     <div className="dropdown"> 
                     <RedirectLink href="/#portfolio">Work</RedirectLink>
                     <div className="dropdown-content">
-                        <DropdownLink to="/brigham" target="_blank">Brigham</DropdownLink>
-                        <DropdownLink to="/bei-app" target="_blank">BEI App</DropdownLink>
-                        <DropdownLink to="/booktoons" target="_blank">booktoons</DropdownLink>
-                        <DropdownLink to="/rdgnu" target="_blank">rdgNU</DropdownLink>
-                        <DropdownLink to="/worksense" target="_blank">Worksense</DropdownLink>
-                        <DropdownLink to="/weschedule" target="_blank">WeSchedule</DropdownLink>
-                        <DropdownLink to="/cornerhealth" target="_blank">Cornerhealth</DropdownLink>
+                        <DropdownLink to="/brigham">Brigham</DropdownLink>
+                        <DropdownLink to="/bei-app">BEI App</DropdownLink>
+                        <DropdownLink to="/booktoons">booktoons</DropdownLink>
+                        <DropdownLink to="/rdgnu">rdgNU</DropdownLink>
+                        <DropdownLink to="/worksense">Worksense</DropdownLink>
+                        <DropdownLink to="/weschedule">WeSchedule</DropdownLink>
+                        <DropdownLink to="/cornerhealth">Cornerhealth</DropdownLink>
                       </div>
                       </div>
                 </li>

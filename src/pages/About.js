@@ -45,7 +45,7 @@ const About = () => {
                             <br/>
                             <br/>
                             Outside of design, I enjoy learning how to code. I am self taught and have found a lot of interest in front-end web development and this website is a 
-                            product of countless trials and errors, and infinite hours of Stack Overflow! I am also an escape room and puzzle enthusiast, film photographer, and 
+                            product of countless trials and errors, and infinite hours of Stack Overflow! I am also an escape room and puzzle enthusiast, a film photographer, and 
                             am currently in the process of learning how to drum. Nice to meet you! :)
                         </AboutText>
                         <HeadingText>I am currently...</HeadingText>

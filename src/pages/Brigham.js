@@ -1,6 +1,7 @@
 import React from 'react';
-import { Footer } from '../components/Footer/Footer';
 import { Header } from '../components/Header/Header';
+import { Slide } from 'react-slideshow-image';
+import { Footer } from '../components/Footer/Footer';
 import { BottomNavigation } from '../components/Bottom-Navigation/BottomNav';
 import { 
     Homepage,
@@ -13,8 +14,13 @@ import {
     ProjectDescription,
     ProjectList,
     ProjectListItem,
-    H2
+    H2,
+    IndividualSlide
 } from './Project.styles';
+import BEIScreen from '../images/BEIScreen.png';
+import colorpalette from '../images/color-palette.jpg';
+import logo from '../images/logo-1.jpg';
+
 
 const Brigham = () => {
     return(
@@ -43,6 +49,11 @@ const Brigham = () => {
                         </ProjectList>
                         <H2>Here are some of the things I created during my time here:</H2>
                         {/*Insert slideshow?*/}
+                        <Slide easing="ease">
+                            <IndividualSlide style={{'backgroundImage': `url(${BEIScreen})`}}/>
+                            <IndividualSlide style={{'backgroundImage': `url(${colorpalette})`}}/>
+                            <IndividualSlide style={{'backgroundImage': `url(${logo})`}}/>
+                        </Slide>
                     </ProjectContent>
                 </ProjectContainer>
             

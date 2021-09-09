@@ -67,7 +67,7 @@ const Home = () => {
                     descdelay="600"
                     header="UI/UX Design + Front End Development"
                     company="booktoons"
-                    description="A website that generates a playlist for your current read"
+                    description="A website that generates a Spotify playlist based on the tone of your current read"
                     redirect="/booktoons"
                     image={booktoons}
                 /> 

@@ -23,7 +23,7 @@ const HomepageLink = styled.a`
 const ProjectContainer = styled.div`
     align-items: center;
     justify-content: center;
-    max-width: 800px;
+    max-width: 900px;
     margin: auto;
 `
 
@@ -111,6 +111,15 @@ const ProjectiFrame = styled.iframe`
     border: none;
 `
 
+const IndividualSlide = styled.div`
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    height: 500px;
+    object-fit: cover;
+`
+
 export {
    Homepage,
    H1,
@@ -128,5 +137,6 @@ export {
    ProjectImage,
    ProjectPrototype,
    ProjectWireframe,
-   ProjectiFrame
+   ProjectiFrame,
+   IndividualSlide
 }

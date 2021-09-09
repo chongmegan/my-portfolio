@@ -1,7 +1,7 @@
 import React from 'react';
 import { 
     PortfolioItemContainer,
-    PortfolioDescriptionContainer,
+    EvenPortfolioDescriptionContainer,
     PortfolioImageContainer,
     PortfolioImage,
     PortfolioHeader,
@@ -15,12 +15,12 @@ const PortfolioItemEven = (props) => {
 
     return (
         <PortfolioItemContainer>	
-            <PortfolioDescriptionContainer data-aos={descfade} data-aos-delay={descdelay}>
+            <EvenPortfolioDescriptionContainer data-aos={descfade} data-aos-delay={descdelay}>
                 <PortfolioHeader>{header}</PortfolioHeader>
                 <PortfolioCompany>{company}</PortfolioCompany>
                 <PortfolioDescription>{description}</PortfolioDescription>
                 <PortfolioLink href={redirect}>View Details</PortfolioLink>
-            </PortfolioDescriptionContainer>
+            </EvenPortfolioDescriptionContainer>
             <PortfolioImageContainer data-aos={imgfade} data-aos-delay={imgdelay}>
                 <PortfolioImage src={image} alt=""/>
             </PortfolioImageContainer>

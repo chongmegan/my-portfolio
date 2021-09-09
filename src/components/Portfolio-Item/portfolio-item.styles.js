@@ -11,8 +11,12 @@ const PortfolioItemContainer = styled.div`
     }
 `
 
-const PortfolioDescriptionContainer = styled.div`
-    margin: auto 5rem;
+const EvenPortfolioDescriptionContainer = styled.div`
+    margin: auto 5rem auto 0;
+`
+
+const OddPortfolioDescriptionContainer = styled.div`
+    margin: auto 0 auto 5rem;
 `
 
 const PortfolioImageContainer = styled.div`
@@ -39,6 +43,7 @@ const PortfolioCompany = styled.h1`
     font-size: 3rem;
     font-family: 'Circular Std', Helvetica, sans-serif;
     font-weight: 600;
+    color: #203a43;
     margin: 1rem 0;
 `
 
@@ -77,7 +82,8 @@ const PortfolioLink = styled.a`
 
 export { 
     PortfolioItemContainer,
-    PortfolioDescriptionContainer,
+    EvenPortfolioDescriptionContainer,
+    OddPortfolioDescriptionContainer,
     PortfolioImageContainer,
     PortfolioImage,
     PortfolioHeader,
