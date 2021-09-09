@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 const ButtonContainer = styled.div`
-    padding: 2rem;
+    padding: 8rem 0 4rem 0;
     text-align: center;
 `
 

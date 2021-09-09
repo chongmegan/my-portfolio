@@ -76,7 +76,7 @@ const PortfolioLink = styled.a`
         opacity: 1;
         transition: 600ms;
         bottom: 1px;
-        right: 38.5rem;
+        right: 43rem;
     }
 `
 

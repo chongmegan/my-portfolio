@@ -11,8 +11,8 @@ import Brigham from './pages/Brigham';
 import Worksense from './pages/Worksense';
 import WeSchedule from './pages/WeSchedule';
 import CornerHealth from './pages/CornerHealth';
-import booktoons from './pages/Booktoons';
-import rdgNU from './pages/rdgNU';
+import Booktoons from './pages/Booktoons';
+import RDGnu from './pages/rdgNU';
 
 
 const App = () => {
@@ -37,8 +37,8 @@ const App = () => {
             <Route path="/about" component={About}/>
             <Route path="/bei-app" component={BEIApp}/>
             <Route path="/brigham" component={Brigham}/>
-            <Route path="/booktoons" component={booktoons}/>
-            <Route path="/rdgnu" component={rdgNU}/>
+            <Route path="/booktoons" component={Booktoons}/>
+            <Route path="/rdgnu" component={RDGnu}/>
             <Route path="/worksense" component={Worksense}/>
             <Route path="/weschedule" component={WeSchedule}/>
             <Route path="/cornerhealth" component={CornerHealth}/>

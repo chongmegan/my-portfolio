@@ -66,8 +66,7 @@ const H2 = styled.h2`
 
 const ProjectList = styled.ul`
     list-style-type: disc;
-    padding-top: 1.5rem;
-    padding-left: 25px;
+    padding: 1rem 0 3rem 25px;
 `
 
 const ProjectListItem = styled.li`
