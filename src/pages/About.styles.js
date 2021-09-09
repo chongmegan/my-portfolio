@@ -2,22 +2,21 @@ import styled from 'styled-components';
 
 const AboutContainer = styled.div`
     display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 90%;
     max-width: 120rem;
-    height: 100%;
+    align-items: top;
     margin: 0 auto;
     position: relative;
     padding-top: 4rem;
     padding-bottom: 8rem;
 `
 const ProfileImgContainer = styled.div`
-    margin-right: 5rem;
+    margin-left: 5rem;
 `
 
 const ProfileImg = styled.img`
     width: 100%;
+    max-width: 500px;
+    height: 500px;
     flex: 1;
 `
 
@@ -26,26 +25,21 @@ const AboutDetails = styled.div`
 `
 
 const AboutHeading = styled.div`
-    text-align: center;
     text-transform: uppercase;
-    line-height: 0;
-    margin-bottom: 6rem;
 `
 
-const AboutHeadingFirst = styled.h1`
-    font-size: 10rem;
+const AboutHeadingText = styled.h1`
+    font-family: 'Circular Std', 'Montserrat', Helvetica, sans-serif;
+    font-size: 6rem;
     color: #203a43;
-    opacity: .40;
-`
-
-const AboutHeadingSecond = styled.h6`
-    font-size: 2.5rem;
-    font-weight: 300;
+    opacity: 20%;
 `
 
 const AboutText = styled.p`
+    font-family: 'Circular Std', 'Montserrat', Helvetica, sans-serif;
     font-size: 1.8rem;
-    font-weight: 300;
+    font-weight: 100;
+    text-align: left;
 `
 
 const SocialMedia = styled.div`
@@ -57,12 +51,15 @@ const SocialMediaRow = styled.ul`
     width: 100%;
     height: 100%;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    align-items: left;
 `
 
 const Item = styled.li`
-    margin: 0 2rem;
+    margin: 0 1rem;
+
+    &:first-child {
+        margin: 0 1rem 0 0;
+    }
 `
 
 const SocialMediaLink = styled.a`
@@ -71,8 +68,9 @@ const SocialMediaLink = styled.a`
 `
 
 const FacebookIcon = styled.i`
-    font-size: 5rem;
-    transition: color 650ms;
+    font-size: 4rem;
+    color: #203a43;
+    transition: color 500ms;
 
     &:hover {
         color: #4267b2;
@@ -80,16 +78,18 @@ const FacebookIcon = styled.i`
 `
 
 const LinkedInIcon = styled.i`
-    font-size: 5rem;
-    transition: color 650ms;
+    font-size: 4rem;
+    color: #203a43;
+    transition: color 500ms;
 
     &:hover {
         color: #0e76a8;
     }
 `
 const GmailIcon = styled.i`
-    font-size: 5rem;
-    transition: color 650ms;
+    font-size: 4rem;
+    color: #203a43;
+    transition: color 500ms;
 
     &:hover {
         color: #c71610;
@@ -97,8 +97,9 @@ const GmailIcon = styled.i`
 `
 
 const GithubIcon = styled.i`
-    font-size: 5rem;
-    transition: color 650ms;
+    font-size: 4rem;
+    color: #203a43;
+    transition: color 500ms;
 
     &:hover {
         color: #333333;
@@ -111,9 +112,8 @@ export {
     ProfileImgContainer,
     ProfileImg,
     AboutDetails,
+    AboutHeadingText,
     AboutHeading,
-    AboutHeadingFirst,
-    AboutHeadingSecond,
     AboutText,
     SocialMedia,
     SocialMediaLink,

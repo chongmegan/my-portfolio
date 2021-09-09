@@ -36,7 +36,7 @@ const Header = (props) => {
                         <DropdownLink to="/brigham" target="_blank">Brigham</DropdownLink>
                         <DropdownLink to="/bei-app" target="_blank">BEI App</DropdownLink>
                         <DropdownLink to="/booktoons" target="_blank">booktoons</DropdownLink>
-                        <DropdownLink to="/rdg-nu" target="_blank">rdgNU</DropdownLink>
+                        <DropdownLink to="/rdgnu" target="_blank">rdgNU</DropdownLink>
                         <DropdownLink to="/worksense" target="_blank">Worksense</DropdownLink>
                         <DropdownLink to="/weschedule" target="_blank">WeSchedule</DropdownLink>
                         <DropdownLink to="/cornerhealth" target="_blank">Cornerhealth</DropdownLink>

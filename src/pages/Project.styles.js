@@ -2,26 +2,21 @@ import styled from 'styled-components';
 
 const Homepage = styled.div`
     position: absolute;
-    margin: 5rem 5rem 5rem 4rem;
-
-    &:hover, &:focus {
-        background: linear-gradient(to top, #0f2027, #203a43, #2c5364);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-    }
+    margin: 5.5rem 5rem 5rem 8rem;
 `
 
 const H1 = styled.h1`
     font-family: 'Circular Std', 'Montserrat', Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-transform: uppercase;
 `
 
 const HomepageLink = styled.a`
-    font-family: 'Circular Std', 'Montserrat', Helvetica, sans-serif;
-    font-weight: 100;
-    font-size: 23px;
-    border-style: solid;
-    border-width: 2px;
-    padding: 5px;
+    &:hover, &:focus {
+        font-size: 21px;
+        transition: 600ms;  
+    }
 `
 
 const ProjectContainer = styled.div`
