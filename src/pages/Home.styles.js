@@ -25,7 +25,7 @@ const LandingSubtext = styled.h6`
     font-size: 2.5rem;
     font-weight: 100;
     color: #0f2027;
-    opacity: 70%;
+    opacity: 80%;
     padding-top: 1rem;
 `
 

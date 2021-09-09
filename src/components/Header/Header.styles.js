@@ -18,30 +18,28 @@ const NavList = styled.ul`
 const NavigationLink = styled(Link)`
     font-family: 'Circular Std', Helvetica, sans-serif;
     color: #ffffff;
-    font-size: 3.5rem;
+    font-size: 30px;
     padding: .5rem;
     cursor: pointer;
     font-weight: bold;
+    text-transform: uppercase;
 
     &:hover, &:focus {
-        background: #ffffcc;
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
+        color: #ffffcc;
     }
 `
 
-const ResumeLink = styled.a`
+const RedirectLink = styled.a`
     font-family: 'Circular Std', Helvetica, sans-serif;
     color: #ffffff;
-    font-size: 3.5rem;
+    font-size: 30px;
     padding: .5rem;
     cursor: pointer;
     font-weight: bold;
+    text-transform: uppercase;
 
     &:hover, &:focus {
-        background: #ffffcc;
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
+        color: #ffffcc;
     }
 `
 
@@ -49,9 +47,8 @@ const DropdownLink = styled(Link)`
     font-family: 'Circular Std', Helvetica, sans-serif;
     font-size: 2rem;
     color: #ffffff;
-    padding: .7rem;
+    padding: 1rem 0 0 1rem;
     display: block;
-    text-align: center;
 
     &:hover {
         color: #ffffcc;
@@ -61,7 +58,7 @@ const DropdownLink = styled(Link)`
 export { 
     HeaderContainer,
     NavList,
-    ResumeLink,
+    RedirectLink,
     NavigationLink,
     DropdownLink
 }

@@ -7,8 +7,9 @@ const Homepage = styled.div`
 
 const H1 = styled.h1`
     font-family: 'Circular Std', 'Montserrat', Helvetica, sans-serif;
-    font-weight: 300;
+    font-weight: 600;
     font-size: 20px;
+    color: #203a43;
     text-transform: uppercase;
 `
 
@@ -33,6 +34,7 @@ const ProjectContent = styled.div`
 const ProjectHeader = styled.h1`
     font-size: 30px;
     font-family: 'Circular Std', 'Montserrat', Helvetica, sans-serif;
+    color: #203a43;
     padding-bottom: .5rem;
 `
 
@@ -41,6 +43,7 @@ const ProjectTags = styled.p`
     font-weight: 100;
     text-transform: uppercase;
     font-size: 16px;
+    opacity: 35%;
     padding-bottom: 2rem;
 `
 

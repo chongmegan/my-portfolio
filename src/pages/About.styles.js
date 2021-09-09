@@ -24,26 +24,36 @@ const AboutDetails = styled.div`
     flex: 1;
 `
 
-const AboutHeading = styled.div`
-    text-transform: uppercase;
-`
-
-const AboutHeadingText = styled.h1`
+const HeadingText = styled.h1`
     font-family: 'Circular Std', 'Montserrat', Helvetica, sans-serif;
     font-size: 6rem;
-    color: #203a43;
+    text-transform: uppercase;
+    color: #808080;
     opacity: 20%;
 `
 
 const AboutText = styled.p`
     font-family: 'Circular Std', 'Montserrat', Helvetica, sans-serif;
-    font-size: 1.8rem;
+    font-size: 17px;
     font-weight: 100;
     text-align: left;
+    padding-bottom: 6rem;
+`
+
+const CurrentList = styled.ul`
+    list-style: square;
+    margin-left: 2rem;
+    padding-top: 1rem;
+`
+
+const CurrentListItem = styled.li`
+    font-family: 'Circular Std', 'Montserrat', Helvetica, sans-serif;
+    font-size: 16px;
+    padding-bottom: 2rem;
 `
 
 const SocialMedia = styled.div`
-    margin-top: 5rem;
+    margin-top: 2rem;
 `
 
 const SocialMediaRow = styled.ul`
@@ -64,17 +74,6 @@ const Item = styled.li`
 
 const SocialMediaLink = styled.a`
     text-decoration: none;
-    color: #000000;
-`
-
-const FacebookIcon = styled.i`
-    font-size: 4rem;
-    color: #203a43;
-    transition: color 500ms;
-
-    &:hover {
-        color: #4267b2;
-    }
 `
 
 const LinkedInIcon = styled.i`
@@ -112,14 +111,14 @@ export {
     ProfileImgContainer,
     ProfileImg,
     AboutDetails,
-    AboutHeadingText,
-    AboutHeading,
+    HeadingText,
     AboutText,
+    CurrentList,
+    CurrentListItem,
     SocialMedia,
     SocialMediaLink,
     SocialMediaRow,
     Item,
-    FacebookIcon,
     LinkedInIcon,
     GithubIcon,
     GmailIcon

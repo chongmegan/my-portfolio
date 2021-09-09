@@ -22,8 +22,9 @@ const PortfolioImageContainer = styled.div`
 const PortfolioImage = styled.img`
     width: 600px;
     height: 100%;
-    max-height: 350px;
+    max-height: 340px;
     overflow: hidden;
+    object-fit: cover;
 `
 
 const PortfolioHeader = styled.h6`
@@ -31,13 +32,13 @@ const PortfolioHeader = styled.h6`
     text-transform: uppercase;
     font-family: 'Circular Std', Helvetica, sans-serif;
     font-weight: 300;
-    opacity: 0.3;
+    opacity: 35%;
 `
 
 const PortfolioCompany = styled.h1`
     font-size: 3rem;
     font-family: 'Circular Std', Helvetica, sans-serif;
-    font-weight: 500;
+    font-weight: 600;
     margin: 1rem 0;
 `
 
