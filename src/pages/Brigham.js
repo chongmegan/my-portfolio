@@ -1,6 +1,7 @@
 import React from 'react';
 import { Header } from '../components/Header/Header';
 import { Slide } from 'react-slideshow-image';
+import 'react-slideshow-image/dist/styles.css';
 import { Footer } from '../components/Footer/Footer';
 import { BottomNavigation } from '../components/Bottom-Navigation/BottomNav';
 import { 
@@ -8,11 +9,10 @@ import {
     H1,
     HomepageLink,
     ProjectContainer,
-    ProjectContent,
     ProjectHeader,
     ProjectTags,
     ProjectOverview,
-    ProjectList,
+    MainProjectList,
     ProjectListItem,
     IndividualSlide
 } from './Project.styles';
@@ -33,7 +33,7 @@ const properties = {
 }
 
 const Brigham = () => {
-    return(
+    return (
         <div>
             <Homepage>
                 <H1><HomepageLink href="/">Megan Chong</HomepageLink></H1>
@@ -41,17 +41,16 @@ const Brigham = () => {
             <Header height="20vh"/>
 
                 <ProjectContainer>
-                    <ProjectContent>
-                        <ProjectHeader>Media and Design Co-op</ProjectHeader>
-                        <ProjectTags>Graphic Design, UI/UX, Web Development, Mobile App Development</ProjectTags><br/>   
-                        <ProjectOverview>
-                            I co-oped at Brigham and Women's Hospital at the Brigham Education Insititute (BEI) and the Brigham Research Institute (BRI) Spring 2021 
-                            and stayed on the team part-time Fall/Winter 2021 as the Media and Design intern. 
-                            <br/>
-                            <br/>
-                            During my time here I was responsible for: 
-                        </ProjectOverview>
-                        <ProjectList>
+                    <ProjectHeader>Media and Design Co-op</ProjectHeader>
+                    <ProjectTags>Graphic Design, UI/UX, Web Development, Mobile App Development</ProjectTags><br/>   
+                    <ProjectOverview>
+                        I co-oped at Brigham and Women's Hospital at the Brigham Education Insititute (BEI) and the Brigham Research Institute (BRI) Spring 2021 
+                        and stayed on the team part-time Fall/Winter 2021 as the Media and Design intern. 
+                        <br/>
+                        <br/>
+                        During my time here I was responsible for: 
+                    </ProjectOverview>
+                        <MainProjectList>
                             <ProjectListItem>
                                 Producing graphics and visuals for flatscreens around the hospital
                             </ProjectListItem>
@@ -70,7 +69,7 @@ const Brigham = () => {
                             <ProjectListItem>
                                 Designing a vascular surgery website through Wordpress for use by Harvard Medical School surgical residents
                             </ProjectListItem>
-                        </ProjectList>
+                        </MainProjectList>
                         <Slide {...properties} /*easing="ease"*/>
                             <IndividualSlide style={{'backgroundImage': `url(${SharkTank})`}}/>
                             <IndividualSlide style={{'backgroundImage': `url(${WomensHealth})`}}/>
@@ -79,7 +78,6 @@ const Brigham = () => {
                             <IndividualSlide style={{'backgroundImage': `url(${AISeries})`}}/>
                             <IndividualSlide style={{'backgroundImage': `url(${CalorieWorkshop})`}}/>
                         </Slide>
-                    </ProjectContent>
                 </ProjectContainer>
             
             <BottomNavigation

@@ -86,6 +86,13 @@ const ProjectList = styled.ul`
     margin-left: 480px;
 `
 
+const MainProjectList = styled.ul`
+    list-style-type: square;
+    padding-top: 1rem;
+    padding-bottom: 5rem;
+    max-width: 900px;
+`
+
 const ProjectListItem = styled.li`
     font-family: 'Circular Std', 'Montserrat', Helvetica, sans-serif;
     line-height: 140%;
@@ -141,6 +148,7 @@ export {
    H2,
    LineBreak,
    ProjectList,
+   MainProjectList,
    ProjectListItem,
    WebsiteLink,
    ProjectImage,

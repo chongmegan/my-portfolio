@@ -25,7 +25,7 @@ const NavigationLink = styled(Link)`
     text-transform: uppercase;
 
     &:hover, &:focus {
-        color: #ffffcc;
+        color: #FDF0D5;
     }
 `
 
@@ -39,7 +39,7 @@ const RedirectLink = styled.a`
     text-transform: uppercase;
 
     &:hover, &:focus {
-        color: #ffffcc;
+        color: #FDF0D5;
     }
 `
 
@@ -51,7 +51,7 @@ const DropdownLink = styled(Link)`
     display: block;
 
     &:hover {
-        color: #ffffcc;
+        color: #FDF0D5;
     }
 `
 
