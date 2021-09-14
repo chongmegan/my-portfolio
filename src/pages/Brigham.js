@@ -16,10 +16,21 @@ import {
     ProjectListItem,
     IndividualSlide
 } from './Project.styles';
-import BEIScreen from '../images/BEIScreen.png';
-import colorpalette from '../images/color-palette.jpg';
-import logo from '../images/logo-1.jpg';
+import SharkTank from '../images/SharkTank.png';
+import WomensHealth from '../images/WomensHealth.jpg';
+import KnowledgeBurst from '../images/KnowledgeBurst.jpg';
+import HLPMEgrant from '../images/HLPMEgrant.jpg';
+import AISeries from '../images/AISeries.jpg';
+import CalorieWorkshop from '../images/CalorieWorkshop.png';
 
+
+const properties = {
+  duration: 5000,
+  transitionDuration: 600,
+  infinite: true,
+  indicators: true,
+  arrows: true
+}
 
 const Brigham = () => {
     return(
@@ -60,10 +71,13 @@ const Brigham = () => {
                                 Designing a vascular surgery website through Wordpress for use by Harvard Medical School surgical residents
                             </ProjectListItem>
                         </ProjectList>
-                        <Slide easing="ease">
-                            <IndividualSlide style={{'backgroundImage': `url(${BEIScreen})`}}/>
-                            <IndividualSlide style={{'backgroundImage': `url(${colorpalette})`}}/>
-                            <IndividualSlide style={{'backgroundImage': `url(${logo})`}}/>
+                        <Slide {...properties} /*easing="ease"*/>
+                            <IndividualSlide style={{'backgroundImage': `url(${SharkTank})`}}/>
+                            <IndividualSlide style={{'backgroundImage': `url(${WomensHealth})`}}/>
+                            <IndividualSlide style={{'backgroundImage': `url(${KnowledgeBurst})`}}/>
+                            <IndividualSlide style={{'backgroundImage': `url(${HLPMEgrant})`}}/>
+                            <IndividualSlide style={{'backgroundImage': `url(${AISeries})`}}/>
+                            <IndividualSlide style={{'backgroundImage': `url(${CalorieWorkshop})`}}/>
                         </Slide>
                     </ProjectContent>
                 </ProjectContainer>

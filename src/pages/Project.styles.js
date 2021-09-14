@@ -28,7 +28,9 @@ const ProjectContainer = styled.div`
 `
 
 const ProjectContent = styled.div`
-    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
 `
 
 const ProjectHeader = styled.h1`
@@ -50,11 +52,15 @@ const ProjectTags = styled.p`
 const ProjectOverview = styled.p`
     font-family: 'Circular Std', 'Montserrat', Helvetica, sans-serif;
     font-size: 18px;
+    line-height: 1.5;
 `
 
 const ProjectDescription = styled.p`
     font-family: 'Circular Std', 'Montserrat', Helvetica, sans-serif;
     font-size: 18px;
+    width: 50%;
+    margin-left: auto;
+    line-height: 1.5;
 `
 
 const H2 = styled.h2`
@@ -62,11 +68,22 @@ const H2 = styled.h2`
     font-weight: 500;
     font-size: 23px;
     padding: 2.5rem 0 1.5rem 0;
+    z-index: 1;
+    position: relative;
+    top: 40px;
+`
+
+const LineBreak = styled.div`
+    display: block;
+    margin: 80px 250px 30px 250px;
+    border-bottom: 2px solid #c1c1c1;
+}
 `
 
 const ProjectList = styled.ul`
-    list-style-type: disc;
-    padding: 1rem 0 3rem 25px;
+    list-style-type: square;
+    padding-top: 1rem;
+    margin-left: 480px;
 `
 
 const ProjectListItem = styled.li`
@@ -90,24 +107,15 @@ const WebsiteLink = styled.a`
 
 const ProjectImage = styled.img`
     padding-top: 3rem;
-    padding-bottom: 1.5rem;
-`
-
-const ProjectPrototype = styled.div`
-    padding: 1rem;
-    justify-content: center;
-`
-
-const ProjectWireframe = styled.div`
-    display: flex;
-    align-items: center;
-    max-width: 400px;
+    padding-bottom: 3rem;
+    width: 100%;
 `
 
 const ProjectiFrame = styled.iframe`
     margin: 0 auto;
     display: block;
     border: none;
+    padding-top: 2rem;
 `
 
 const IndividualSlide = styled.div`
@@ -118,6 +126,7 @@ const IndividualSlide = styled.div`
     height: 500px;
     object-fit: cover;
 `
+
 
 export {
    Homepage,
@@ -130,12 +139,11 @@ export {
    ProjectOverview,
    ProjectDescription,
    H2,
+   LineBreak,
    ProjectList,
    ProjectListItem,
    WebsiteLink,
    ProjectImage,
-   ProjectPrototype,
-   ProjectWireframe,
    ProjectiFrame,
    IndividualSlide
 }

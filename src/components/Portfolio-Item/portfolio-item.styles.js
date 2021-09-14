@@ -5,10 +5,6 @@ const PortfolioItemContainer = styled.div`
     align-items: center;
     justify-content: center;
     margin-bottom: 6rem;
-
-    &:last-child {
-        margin-bottom: 0;
-    }
 `
 
 const EvenPortfolioDescriptionContainer = styled.div`
@@ -24,7 +20,7 @@ const PortfolioImageContainer = styled.div`
 `
 
 const PortfolioImage = styled.img`
-    width: 600px;
+    width: 575px;
     height: 100%;
     max-height: 340px;
     overflow: hidden;
@@ -76,7 +72,7 @@ const PortfolioLink = styled.a`
         opacity: 1;
         transition: 600ms;
         bottom: 1px;
-        right: 43rem;
+        right: 46rem;
     }
 `
 

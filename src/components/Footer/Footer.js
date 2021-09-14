@@ -18,7 +18,7 @@ const Footer = () => {
             <Up onClick={scrollTop} id="up">
                 <UpIcon><FaAngleUp/></UpIcon>
             </Up>
-            <FooterText>&copy; 2021 Megan Chong</FooterText>
+            <FooterText>&copy; 2021 MEGAN CHONG</FooterText>
         </Copyright>
     );
 }

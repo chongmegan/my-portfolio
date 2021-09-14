@@ -27,7 +27,7 @@ const Home = () => {
             <Header height="100vh"/>
             <LandingText>
                 <LandingName>Megan Chong</LandingName>
-                <LandingSubtext>Behavioral Neuroscience and Interaction Design Student</LandingSubtext>
+                <LandingSubtext>Neuroscience Student + Designer + Developer</LandingSubtext>
             </LandingText>
             <ArrowContainer>
                 <a scroll-behavior="smooth" href="#portfolio"><FaAngleDown size="50px" color="#203a43"/></a>
@@ -41,7 +41,7 @@ const Home = () => {
                     imgdelay="300"
                     descfade="fade-left" 
                     descdelay="600"
-                    header="Graphic and Interaction Design"
+                    header="Graphic + Interaction Design"
                     company="Media and Design"
                     description="Graphics and visuals created for the Brigham Education and Research Institutes"
                     redirect="/brigham"
@@ -77,7 +77,7 @@ const Home = () => {
                     imgdelay="600"
                     descfade="fade-right" 
                     descdelay="300"
-                    header="UI/UX, Game Design + Front End Development"
+                    header="UI/UX + Game Design + Front End Development"
                     company="rdgNU"
                     description="A behavioral resource dilemma game created for researchers at Northeastern for a psychology study"
                     redirect="/rdgnu"
@@ -103,7 +103,7 @@ const Home = () => {
                     descdelay="300"
                     header="UI/UX Design"
                     company="WeSchedule"
-                    description="A collaborative scheduling tool idea designed for roommates"
+                    description="A collaborative scheduling tool designed for roommates to navigate shared living spaces"
                     redirect="/weschedule"
                     image={WeSchedule}
                 /> 
@@ -115,7 +115,7 @@ const Home = () => {
                     descdelay="600"
                     header="Mobile Application Design"
                     company="CornerHealth"
-                    description="An application designed to combat food deserts throughout America"
+                    description="A grocery ordering mobile application designed to combat food deserts throughout America"
                     redirect="/cornerhealth"
                     image={CornerHealth}
                 /> 

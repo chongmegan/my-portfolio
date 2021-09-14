@@ -26,7 +26,7 @@ const LandingSubtext = styled.h6`
     font-weight: 100;
     color: #0f2027;
     opacity: 80%;
-    padding-top: 1rem;
+    padding-top: 1.5rem;
 `
 
 const ArrowContainer = styled.div`
