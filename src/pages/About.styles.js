@@ -38,6 +38,7 @@ const AboutText = styled.p`
     font-weight: 100;
     text-align: left;
     padding-bottom: 6rem;
+    line-height: 1.5;
 `
 
 const CurrentList = styled.ul`
@@ -49,6 +50,7 @@ const CurrentList = styled.ul`
 const CurrentListItem = styled.li`
     font-family: 'Circular Std', 'Montserrat', Helvetica, sans-serif;
     font-size: 16px;
+    line-height: 1.5;
     padding-bottom: 2rem;
 `
 
