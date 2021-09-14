@@ -1,18 +1,32 @@
 import styled from 'styled-components';
+import { devices } from '../../devices';
 
 const PortfolioItemContainer = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
     margin-bottom: 6rem;
+    
+    @media ${devices.mobile} {
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+  }
+  @media ${devices.tablet} {
+    flex-wrap: nowrap;
+    flex-direction: ${(props) => (props.reversed ? 'row-reverse' : 'row')};
+  }
 `
 
-const EvenPortfolioDescriptionContainer = styled.div`
-    margin: auto 5rem auto 0;
-`
-
-const OddPortfolioDescriptionContainer = styled.div`
-    margin: auto 0 auto 5rem;
+const PortfolioDescriptionContainer = styled.div`
+    @media ${devices.mobile} {
+        margin: auto 5rem auto 5rem;
+    }
+    @media ${devices.tablet} {
+        margin: auto 3rem auto 3rem;
+    }
+    @media ${devices.laptop} {
+        margin: auto 5rem auto 5rem;
+    }
 `
 
 const PortfolioImageContainer = styled.div`
@@ -20,11 +34,23 @@ const PortfolioImageContainer = styled.div`
 `
 
 const PortfolioImage = styled.img`
-    width: 575px;
     height: 100%;
     max-height: 340px;
     overflow: hidden;
     object-fit: cover;
+
+    @media ${devices.mobile} {
+        width: 250px;
+    }
+    @media ${devices.tablet} {
+        width: 300px;
+    }
+    @media ${devices.laptop} {
+        width: 400px;
+    }
+    @media ${devices.desktop} {
+        width: 575px;
+    }
 `
 
 const PortfolioHeader = styled.h6`
@@ -78,8 +104,7 @@ const PortfolioLink = styled.a`
 
 export { 
     PortfolioItemContainer,
-    EvenPortfolioDescriptionContainer,
-    OddPortfolioDescriptionContainer,
+    PortfolioDescriptionContainer,
     PortfolioImageContainer,
     PortfolioImage,
     PortfolioHeader,

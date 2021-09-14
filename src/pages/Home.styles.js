@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { devices } from '../devices';
 
 const LandingText = styled.div`
     position: absolute;
@@ -11,22 +12,48 @@ const LandingText = styled.div`
 `
 
 const LandingName = styled.h1`
-    font-size: 16rem;
     font-family: 'Circular Std', 'Montserrat', Helvetica, sans-serif;
     background: linear-gradient(to top, #0f2027, #203a43, #2c5364);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    padding: 1rem;
     user-select: none;
+
+    @media ${devices.mobile} {
+        font-size: 5rem;
+        padding: 0;
+    }
+    @media ${devices.tablet} {
+        font-size: 8rem;
+        padding: 1rem;
+    }
+    @media ${devices.laptop} {
+        font-size: 10rem;
+    }
+    @media ${devices.desktop} {
+        font-size: 16rem;
+    }
 `
 
 const LandingSubtext = styled.h6`
     font-family: 'Circular Std', Helvetica, sans-serif;
-    font-size: 2.5rem;
     font-weight: 100;
     color: #0f2027;
     opacity: 80%;
-    padding-top: 1.5rem;
+
+    @media ${devices.mobile} {
+        font-size: 13px;
+    }
+    @media ${devices.tablet} {
+        font-size: 18px;
+    }
+    @media ${devices.laptop} {
+        font-size: 2rem;
+        padding-top: 1rem;
+    }
+    @media ${devices.desktop} {
+        font-size: 2.5rem;
+        padding-top: 1.5rem;
+    }
 `
 
 const ArrowContainer = styled.div`
@@ -40,11 +67,17 @@ const Section = styled.section`
 `
 
 const Container = styled.div`
-    width: 90%;
-    max-width: 120rem;
     height: 100%;
+    width: 90%;
     margin: 0 auto;
     position: relative;
+
+    @media ${devices.laptop} {
+        max-width: 80rem;
+    }
+    @media ${devices.desktop} {
+        max-width: 120rem;
+    }
 `
 
 

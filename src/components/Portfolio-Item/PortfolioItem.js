@@ -1,26 +1,26 @@
 import React from 'react';
 import { 
     PortfolioItemContainer,
-    EvenPortfolioDescriptionContainer,
+    PortfolioDescriptionContainer,
     PortfolioImageContainer,
     PortfolioImage,
     PortfolioHeader,
     PortfolioCompany,
     PortfolioDescription,
     PortfolioLink
-} from './portfolio-item.styles';
+} from './PortfolioItem.styles';
 
-const PortfolioItemEven = (props) => {
-    const { descfade, descdelay, header, company, description, image, redirect, imgfade, imgdelay } = props
+const PortfolioItem = (props) => {
+    const { descfade, descdelay, header, company, description, image, redirect, imgfade, imgdelay, reversed } = props
 
     return (
-        <PortfolioItemContainer>	
-            <EvenPortfolioDescriptionContainer data-aos={descfade} data-aos-delay={descdelay}>
+        <PortfolioItemContainer reversed={reversed}>	
+            <PortfolioDescriptionContainer data-aos={descfade} data-aos-delay={descdelay} reversed={reversed}>
                 <PortfolioHeader>{header}</PortfolioHeader>
                 <PortfolioCompany>{company}</PortfolioCompany>
                 <PortfolioDescription>{description}</PortfolioDescription>
                 <PortfolioLink href={redirect}>View Details</PortfolioLink>
-            </EvenPortfolioDescriptionContainer>
+            </PortfolioDescriptionContainer>
             <PortfolioImageContainer data-aos={imgfade} data-aos-delay={imgdelay}>
                 <PortfolioImage src={image} alt=""/>
             </PortfolioImageContainer>
@@ -28,4 +28,4 @@ const PortfolioItemEven = (props) => {
     )
 }
 
-export { PortfolioItemEven };
+export { PortfolioItem };

@@ -1,8 +1,7 @@
 import React from 'react';
 import { Header } from '../components/Header/Header';
 import { Footer } from '../components/Footer/Footer';
-import { PortfolioItemOdd } from '../components/Portfolio-Item/portfolio-item-odd';
-import { PortfolioItemEven } from '../components/Portfolio-Item/portfolio-item-even';
+import { PortfolioItem } from '../components/Portfolio-Item/PortfolioItem';
 import Worksense from '../images/worksenseheader.png';
 import WeSchedule from '../images/wescheduleheader.png';
 import CornerHealth from '../images/cornerhealthheader.png';
@@ -36,7 +35,7 @@ const Home = () => {
             <Section id="portfolio">
                 <Container>
 
-                <PortfolioItemOdd
+                <PortfolioItem
                     imgfade="fade-right"
                     imgdelay="300"
                     descfade="fade-left" 
@@ -46,9 +45,10 @@ const Home = () => {
                     description="Graphics and visuals created for the Brigham Education and Research Institutes"
                     redirect="/brigham"
                     image={Brigham}
+                    reversed={0 % 2 === 0}
                 /> 
                 
-                <PortfolioItemEven
+                <PortfolioItem
                     imgfade="fade-left"
                     imgdelay="600"
                     descfade="fade-right" 
@@ -58,9 +58,10 @@ const Home = () => {
                     description="An education and resource database application used for professional development at the Brigham and Women's Hospital"
                     redirect="/bei-app"
                     image={BrighamApp}
+                    reversed={1 % 2 === 0}
                 /> 
 
-                <PortfolioItemOdd
+                <PortfolioItem
                     imgfade="fade-right"
                     imgdelay="300"
                     descfade="fade-left" 
@@ -70,9 +71,10 @@ const Home = () => {
                     description="A website that generates a Spotify playlist based on the tone of your current read"
                     redirect="/booktoons"
                     image={booktoons}
+                    reversed={0 % 2 === 0}
                 /> 
 
-                <PortfolioItemEven
+                <PortfolioItem
                     imgfade="fade-left"
                     imgdelay="600"
                     descfade="fade-right" 
@@ -82,9 +84,10 @@ const Home = () => {
                     description="A behavioral resource dilemma game created for researchers at Northeastern for a psychology study"
                     redirect="/rdgnu"
                     image={rdgNU}
+                    reversed={1 % 2 === 0}
                 /> 
 
-                <PortfolioItemOdd
+                <PortfolioItem
                     imgfade="fade-right"
                     imgdelay="300"
                     descfade="fade-left" 
@@ -94,9 +97,10 @@ const Home = () => {
                     description="Rebranding and building a marketing website for Worksense Analytics at Scout design studio"
                     redirect="/worksense"
                     image={Worksense}
+                    reversed={0 % 2 === 0}
                 /> 
 
-                <PortfolioItemEven
+                <PortfolioItem
                     imgfade="fade-left"
                     imgdelay="600"
                     descfade="fade-right" 
@@ -106,9 +110,10 @@ const Home = () => {
                     description="A collaborative scheduling tool designed for roommates to navigate shared living spaces"
                     redirect="/weschedule"
                     image={WeSchedule}
+                    reversed={1 % 2 === 0}
                 /> 
 
-                <PortfolioItemOdd
+                <PortfolioItem
                     imgfade="fade-right"
                     imgdelay="300"
                     descfade="fade-left" 
@@ -118,6 +123,7 @@ const Home = () => {
                     description="A grocery ordering mobile application designed to combat food deserts throughout America"
                     redirect="/cornerhealth"
                     image={CornerHealth}
+                    reversed={0 % 2 === 0}
                 /> 
 
         </Container>
