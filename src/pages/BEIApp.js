@@ -53,10 +53,10 @@ const BEIApp = () => {
                             <br/>
                             <br/> 
                             One of the main problems was that all of the information such as events, presentations, readings, videos, etc. were all presented 
-                            in an internal Airtable database, which was inaccesible for all staff and educators in the Brigham and the BEI team also found it 
+                            in an internal Airtable database, which was inaccessible for all staff and educators in the Brigham and the BEI team also found it 
                             extremely difficult to navigate such an extensive database for specific resources. A resulting problem from this was that although
                             this information was intended to be available for the Brigham community, only a small handful of people accessed and used these 
-                            resources because of it's inaccessability.
+                            resources because of its inaccessibility.
                         </ProjectDescription>
                         <LineBreak/>
                         <H2>Users + Audience</H2>
