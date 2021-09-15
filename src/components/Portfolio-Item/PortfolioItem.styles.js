@@ -98,7 +98,7 @@ const PortfolioLink = styled.a`
         opacity: 1;
         transition: 600ms;
         bottom: 1px;
-        right: 46rem;
+        right: 41rem;
     }
 `
 
