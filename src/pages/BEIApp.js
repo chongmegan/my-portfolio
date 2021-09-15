@@ -47,9 +47,8 @@ const BEIApp = () => {
                         <H2>The Problem</H2>
                         <ProjectDescription>
                             The Brigham Education Institute (BEI) is the main department at the Brigham and Women's hospital that facilitates the implementation 
-                            of teaching and educational resources and teachings, research and gives all Brigham staff and educators access to educational 
-                            and professional opportunities. As such, it is crucial for there to be a way for all of these resources to be presented 
-                            and readily available throughout the hospital.
+                            of teaching and educational resources and gives all Brigham staff and educators access to educational and professional opportunities. 
+                            As such, it is crucial for there to be a way for all of these resources to be presented and readily available throughout the hospital.
                             <br/>
                             <br/> 
                             One of the main problems was that all of the information such as events, presentations, readings, videos, etc. were all presented 
@@ -79,7 +78,7 @@ const BEIApp = () => {
                         <ProjectDescription>
                             When I was approached about this project, I was presented with a rough timeline, stages, and goals for the overall mobile application, however
                             the overall scope of the project and its main workflows had not been established. My first task was to work with the team to finalize what exactly
-                            we wanted the application to do and solidfying the major workflows we wanted for our MVP. We identified pain points: wanted an easier way to access
+                            we wanted the application to do and solidified the major workflows we wanted for our MVP. We identified pain points: wanted an easier way to access
                             all of the resources at the Brigham and also be connected to events at the hospital. I have since iterated on the first version of the site map that
                             was created and am currently working on the second version as well as iterating on the wireframes. 
                         </ProjectDescription>
@@ -100,10 +99,10 @@ const BEIApp = () => {
                         <LineBreak/>
                         <H2>Design System + UI Design</H2>
                         <ProjectDescription>
-                            The overall theme of this application waas inspired by a clean and simple feel while also incorporating subtle wave illustrations to add a touch of playfulness
+                            The overall theme of this application was inspired by a clean and simple feel while also incorporating subtle wave illustrations to add a touch of playfulness
                             and create a slightly more organic design. I also wanted the application to feel welcoming and slightly more playful as most hospital resources and applications
                             usually stick to a no-frills design and tend to feel more "sterile". I was able to achieve this through the use of rounded corners, bright illustrations and a card 
-                            format used in user-friendly learning applications such as Socratic by Google, Duolingo, LinkedIn Learning. During this process, I also kept accesibility in mind, 
+                            format used in user-friendly learning applications such as Socratic by Google, Duolingo, LinkedIn Learning. During this process, I also kept accessibility in mind, 
                             ensuring that all of the text and colors passed contrast checkers and also since this was a mobile application, that each of the buttons were large enough and distanced
                             appropriately to minimize errors when the users were interacting with the components.
                         </ProjectDescription>
@@ -121,8 +120,8 @@ const BEIApp = () => {
                         <ProjectOverview>
                             Once the prototype was created, it was sent to medical residents for feedback along with the team at the Brigham Education Institute. Upon gathering the feedback, I met 
                             with the team and the developers to go over new workflows and changes that needed to be made for the next version. It was also extremely helpful that during the time I was
-                            awaiting feedback, I was able to step away from the designs for a period of time so I would be able to go back to them with "fresh eyes" and reevaulate the designs to make sure
-                            they were accesible and straightforward. 
+                            awaiting feedback, I was able to step away from the designs for a period of time so I would be able to go back to them with "fresh eyes" and re-evaluate the designs to make sure
+                            they were accessible and straightforward. 
                         </ProjectOverview>
                         <LineBreak/>
                         <H2>Outcome + Next Steps</H2>
