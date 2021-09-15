@@ -43,7 +43,7 @@ const PortfolioImage = styled.img`
         width: 250px;
     }
     @media ${devices.tablet} {
-        width: 300px;
+        width: 340px;
     }
     @media ${devices.laptop} {
         width: 400px;
@@ -54,31 +54,60 @@ const PortfolioImage = styled.img`
 `
 
 const PortfolioHeader = styled.h6`
-    font-size: 1.5rem;
     text-transform: uppercase;
     font-family: 'Circular Std', Helvetica, sans-serif;
     font-weight: 300;
     opacity: 35%;
+
+    @media ${devices.mobile} {
+        font-size: 1.2rem;
+        padding-top: 2rem;   
+    }
+    @media ${devices.tablet} {
+        font-size: 1.1rem;
+        padding-top: 0;
+    }
+    @media ${devices.laptop} {
+        font-size: 1.3rem;
+    }
+    @media ${devices.desktop} {
+        font-size: 1.5rem;
+    }
 `
 
 const PortfolioCompany = styled.h1`
-    font-size: 3rem;
     font-family: 'Circular Std', Helvetica, sans-serif;
     font-weight: 600;
     color: #203a43;
-    margin: 1rem 0;
+
+     @media ${devices.mobile} {
+        font-size: 2rem;
+        padding-bottom: .5rem;
+    }
+    @media ${devices.tablet} {
+        font-size: 2.2rem;
+        padding-bottom: 0;
+        margin: 1rem 0;
+    }
+    @media ${devices.desktop} {
+        font-size: 3rem;
+    }
 `
 
 const PortfolioDescription = styled.p`
-    font-size: 1.8rem;
     font-family: 'Circular Std', Helvetica, sans-serif;
+
+    @media ${devices.mobile} {
+        font-size: 1.3rem;
+    }
+    @media ${devices.desktop} {
+        font-size: 1.8rem;
+    }
 `
 
 const PortfolioLink = styled.a`
     display: inline-block;
     font-family: 'Circular Std', Helvetica, sans-serif;
-    margin-top: 2.5rem;
-    font-size: 1.5rem;
     text-transform: uppercase; 
     color: #4690AE;
     transition: color 600ms;
@@ -99,6 +128,15 @@ const PortfolioLink = styled.a`
         transition: 600ms;
         bottom: 1px;
         right: 41rem;
+    }
+
+    @media ${devices.mobile} {
+        font-size: 1.2rem;
+        margin-top: 2.3rem;  
+    }
+    @media ${devices.desktop} {
+        font-size: 1.5rem;
+        margin-top: 2.5rem;
     }
 `
 
