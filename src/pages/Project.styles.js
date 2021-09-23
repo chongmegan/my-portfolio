@@ -77,7 +77,6 @@ const LineBreak = styled.div`
     display: block;
     margin: 80px 250px 30px 250px;
     border-bottom: 2px solid #c1c1c1;
-}
 `
 
 const ProjectList = styled.ul`

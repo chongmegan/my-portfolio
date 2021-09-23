@@ -47,7 +47,7 @@ const WeSchedule = () => {
                     new roommates, housemates, sublets, etc. and it can be hard to effectively communicate all of your expectations and goals of living together. This is where WeSchedule comes in.
                     <br/>
                     <br/>
-                    Click here for <WebsiteLink href="https://www.figma.com/proto/ZttTHpnOaEUANC1eXzEzVK/Homepage-Hi-Fi-Wireframes?node-id=131%3A58&scaling=min-zoom" target="_blank" rel="noopener noreferrer">interactive prototype</WebsiteLink>!
+                    Click here for the <WebsiteLink href="https://www.figma.com/proto/ZttTHpnOaEUANC1eXzEzVK/Homepage-Hi-Fi-Wireframes?node-id=131%3A58&scaling=min-zoom" target="_blank" rel="noopener noreferrer">interactive prototype</WebsiteLink>!
                 </ProjectOverview>
                 <ProjectContent>
                     <H2>Overview</H2>

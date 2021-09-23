@@ -10,6 +10,7 @@ import {
     ProjectContainer, 
     ProjectContent,
     ProjectOverview,
+    WebsiteLink,
     ProjectDescription, 
     LineBreak,
     ProjectHeader, 
@@ -42,6 +43,9 @@ const BEIApp = () => {
                         An essential companion app that will enable all staff at Brigham and Women's Hospital to have a unique learning and 
                         development journey, helping them to maximize their potential for clinical and professional development by providing a 
                         guide to all the educational resources, events, tools and people that are available within the Brigham Education Institute.
+                        <br/>
+                        <br/>
+                        Click here for the <WebsiteLink href="https://www.figma.com/proto/QOpyCjBZjpDfn1jeUvnbxW/Hi-fi-Wireframes?node-id=611%3A140&scaling=min-zoom&page-id=611%3A105&starting-point-node-id=611%3A140" target="_blank" rel="noopener noreferrer">interactive prototype</WebsiteLink>!
                     </ProjectOverview>
                     <ProjectContent>
                         <H2>The Problem</H2>
