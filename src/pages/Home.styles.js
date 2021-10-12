@@ -27,7 +27,7 @@ const LandingName = styled.h1`
         padding: 1rem;
     }
     @media ${devices.laptop} {
-        font-size: 10rem;
+        font-size: 13rem;
     }
     @media ${devices.desktop} {
         font-size: 16rem;
@@ -73,7 +73,7 @@ const Container = styled.div`
     position: relative;
 
     @media ${devices.laptop} {
-        max-width: 80rem;
+        max-width: 100rem;
     }
     @media ${devices.desktop} {
         max-width: 120rem;

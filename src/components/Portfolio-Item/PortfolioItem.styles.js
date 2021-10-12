@@ -46,7 +46,7 @@ const PortfolioImage = styled.img`
         width: 340px;
     }
     @media ${devices.laptop} {
-        width: 400px;
+        width: 475px;
     }
     @media ${devices.desktop} {
         width: 575px;
@@ -89,6 +89,9 @@ const PortfolioCompany = styled.h1`
         padding-bottom: 0;
         margin: 1rem 0;
     }
+    @media ${devices.laptop} {
+        font-size: 2.6rem;
+    }
     @media ${devices.desktop} {
         font-size: 3rem;
     }
@@ -99,6 +102,9 @@ const PortfolioDescription = styled.p`
 
     @media ${devices.mobile} {
         font-size: 1.3rem;
+    }
+    @media ${devices.laptop} {
+        font-size: 1.6rem;
     }
     @media ${devices.desktop} {
         font-size: 1.8rem;
