@@ -44,7 +44,7 @@ const Header = (props) => {
                       </div>
                 </li>
                 <li>
-                    <RedirectLink href="https://drive.google.com/file/d/1E22wdC27ytFg51Wd4wV6SAl_oP3bby2X/view?usp=sharing" rel="noopener noreferrer" target="_blank">Resume</RedirectLink>
+                    <RedirectLink href="https://drive.google.com/file/d/1tvnEhuPp2Zj-w0lB2DMpZ7hUi1Wy10k9/view?usp=sharing" rel="noopener noreferrer" target="_blank">Resume</RedirectLink>
                 </li>
             </NavList>
         </nav>
